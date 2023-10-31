@@ -1,0 +1,3 @@
+('EEX22', 'EEX22', {'weight': 1})
+('CSX54', 'CSX54', {'weight': 1})
+('FI73M', 'FI73M', {'weight': 1})
