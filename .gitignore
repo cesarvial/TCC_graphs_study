@@ -1,0 +1,15 @@
+.venv/
+.vscode
+
+.jupyter_ystore.db
+.ipynb_checkpoints
+
+.python-version
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+downloads/
+build/
+.Python
+.env/
