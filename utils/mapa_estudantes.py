@@ -52,7 +52,7 @@ def get_mapeamento_721_to_844():
 
 def get_historico_completo() -> List:
     """
-    Obtem o histórico completo de todos os estudantes
+    Obtem o histórico completo de todos os estudantes (Dados obtidos pelo professor)
     """
     historico_completo = []
     # Obter os históricos de todos os estudantes
@@ -61,13 +61,15 @@ def get_historico_completo() -> List:
             reader = csv.DictReader(csvfile, delimiter=";")
             for row in reader:
                 historico_completo.append(row)
-    print(f"Carregando {len(historico_completo)} dados de estudantes")
+    print(f"Encontrados {len(historico_completo)} dados de estudantes no histórico")
     return historico_completo
 
 
-def gerar_estudantes(historico):
+def gerar_estudantes(historico) -> dict:
     """
     Obtem um mapa de estudantes a partir de dados de histórico de estudantes
+    - As disciplinas cursadas por cada estudante são ordenadas por ano e periodo
+    - O Mapa de estudantes é um dicionário onde a chave é o id anonimo do estudante e o valor é um objeto da classe Estudante
     """
     estudantes = {}
     for dado in historico:
@@ -89,7 +91,7 @@ def carregar_estudantes_old():
 
     Retorna um dicionário com os estudantes, onde a chave é o id anonimo do estudante e o valor é um objeto da classe Estudante
     """
-    get_historico_completo = get_historico_completo()
+    historico_completo = get_historico_completo()
 
     # Obter o mapeamento de disciplinas
     # map_disciplinas = mapeamento_721_to_844()
@@ -117,25 +119,25 @@ def carregar_estudantes_old():
     # print(historico_desconhecido)
 
     # historico_grade_844 = historico_completo
-    print(f"{len(historico_grade_844)} dados de estudantes na grade 844")
+    # print(f"{len(historico_grade_844)} dados de estudantes na grade 844")
 
-    # Criar uma mapa de estudantes
-    estudantes = {}
-    disciplinas_cursadas = set()
-    disciplinas_desconhecidas = set()
-    for dado in historico_completo:
-        id = dado["ID_ANONIMO"]
-        if not any(id == estudante for estudante in estudantes):
-            estudantes[id] = Estudante.from_dict(dado)
-        estudantes[id].add_disciplina_from_dict(dado)
+    # # Criar uma mapa de estudantes
+    # estudantes = {}
+    # disciplinas_cursadas = set()
+    # disciplinas_desconhecidas = set()
+    # for dado in historico_completo:
+    #     id = dado["ID_ANONIMO"]
+    #     if not any(id == estudante for estudante in estudantes):
+    #         estudantes[id] = Estudante.from_dict(dado)
+    #     estudantes[id].add_disciplina_from_dict(dado)
 
-        if dado["CODIGO"] in disciplinas_844:
-            disciplinas_cursadas.add(dado["CODIGO"])
-        else:
-            disciplinas_desconhecidas.add(dado["CODIGO"])
+    #     if dado["CODIGO"] in disciplinas_844:
+    #         disciplinas_cursadas.add(dado["CODIGO"])
+    #     else:
+    #         disciplinas_desconhecidas.add(dado["CODIGO"])
 
-    # Ordenar as disciplinas cursadas de cada estudante por ano e periodo
-    for estudante in estudantes.values():
-        estudante.sort_disciplinas()
+    # # Ordenar as disciplinas cursadas de cada estudante por ano e periodo
+    # for estudante in estudantes.values():
+    #     estudante.sort_disciplinas()
 
-    return estudantes, disciplinas_cursadas, disciplinas_desconhecidas
+    # return estudantes, disciplinas_cursadas, disciplinas_desconhecidas
