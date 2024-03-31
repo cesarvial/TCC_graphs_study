@@ -1,0 +1,54 @@
+Comunidade 0:
+Trilha Engenharia De Software: 1
+Trilha Otimizacao, Modelos Analiticos e de Simulacao: 2
+Trilha Fisica: 2
+Trilha IHC: 27
+Trilha Engenharia Biomedica: 2
+Trilha Desenvolvimento Baseado em Plataformas Programacao: 18
+
+==================================================================================================================================================================
+
+Comunidade 1:
+Trilha Redes De Computadores: 5
+Trilha Engenharia De Software: 2
+Trilha Otimizacao, Modelos Analiticos e de Simulacao: 4
+Trilha Fisica: 33
+Trilha Banco De Dados: 2
+Trilha IHC: 13
+
+==================================================================================================================================================================
+
+Comunidade 2:
+Trilha Processamento Grafico: 37
+Trilha Sistemas Inteligentes: 8
+Trilha Algoritmos E Complexidade: 2
+Trilha Redes De Computadores: 7
+Trilha Engenharia De Software: 2
+Trilha Fisica: 3
+Trilha Banco De Dados: 4
+Trilha IHC: 9
+Trilha Engenharia Biomedica: 1
+Trilha Desenvolvimento Baseado em Plataformas Programacao: 3
+
+==================================================================================================================================================================
+
+Comunidade 3:
+Trilha Sistemas Inteligentes: 1
+Trilha Algoritmos E Complexidade: 3
+Trilha Redes De Computadores: 24
+Trilha Otimizacao, Modelos Analiticos e de Simulacao: 1
+Trilha Banco De Dados: 2
+Trilha IHC: 13
+Trilha Engenharia Biomedica: 1
+Trilha Desenvolvimento Baseado em Plataformas Programacao: 5
+
+==================================================================================================================================================================
+
+Comunidade 4:
+Trilha Sistemas Inteligentes: 1
+Trilha Algoritmos E Complexidade: 10
+Trilha Banco De Dados: 12
+Trilha Desenvolvimento Baseado em Plataformas Programacao: 2
+
+==================================================================================================================================================================
+
