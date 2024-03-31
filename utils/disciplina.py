@@ -2,6 +2,25 @@ from dataclasses import dataclass
 import traceback
 from typing import Dict, List
 
+trilhas = {
+    960: "Controle",
+    961: "Processamento Gráfico",
+    962: "Sistemas Inteligentes",
+    963: "Algoritmos E Complexidade",
+    964: "Redes De Computadores",
+    965: "Engenharia De Software",
+    966: "Otim, Mod Analíticos E Simul",
+    967: "Física",
+    968: "Banco De Dados",
+    969: "Interação Hum",
+    970: "Engenharia Biomédica",
+    971: "Sistemas Embarcados",
+    972: "Desenv Bas Em Plataforma",
+    973: "Optativas Isoladas"
+}
+
+def get_trilha(trilha: int) -> str:
+    return trilhas.get(trilha, None)
 
 @dataclass
 class Disciplina:
@@ -22,10 +41,11 @@ class Disciplina:
 
     @classmethod
     def from_dict(cls, data: dict):
+        trilha = data["[OPT]"].strip().replace("[", "").replace("]", "")
         try:
             disciplina = cls(
                 periodo=int(data["Período"]),
-                trilha=data["[OPT]"].strip(),
+                trilha = int(trilha) if trilha else None,
                 codigo=data["Código"],
                 disciplina=data["Disciplina"],
                 modelo_disciplina=data["Modelo de disciplina"],

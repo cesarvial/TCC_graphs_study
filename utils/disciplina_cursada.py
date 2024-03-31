@@ -30,4 +30,7 @@ class DisciplinaCursada:
         return (self.ano == other.ano and self.periodo == 1 and other.periodo == 2) or (
             (self.ano + 1 == other.ano) and self.periodo == 2 and other.periodo == 1
         )
+    
+    def __hash__(self) -> int:
+        return hash(self.codigo)
 

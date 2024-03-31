@@ -56,3 +56,15 @@ Reunião
 - Separar os alunos em "grupos"
 
 Sistema de recomendação de um percurso 
+
+
+
+# 12/12/2023
+
+file:///C:/Users/cesar/Downloads/IIITD_Course_Recommendation_System.pdf
+
+https://arxiv.org/pdf/2101.12153.pdf
+
+Análise exploratória - "metadados" dos nossos dados.
+
+Criar grafos de estudantes onde a ligação são as disciplinas.
