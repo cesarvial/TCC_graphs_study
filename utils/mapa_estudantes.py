@@ -17,7 +17,7 @@ matriz_844_path = "../excel/matriz_844.csv"
 
 def get_disciplinas_matriz_844():
     disciplinas = {}
-    with open(matriz_844_path) as csvfile:
+    with open(matriz_844_path, encoding="utf8") as csvfile:
         reader = csv.DictReader(csvfile, delimiter=",")
         for row in reader:
             disciplinas[row["Código"]] = Disciplina.from_dict(row)
