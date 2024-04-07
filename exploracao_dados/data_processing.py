@@ -16,6 +16,13 @@ def load_student_data() -> dict:
     }
 
     dados.update(todos = pd.concat([dados["desistentes"], dados["regulares"], dados["formados"], dados["trancados"]]))
+
+    dados['desistentes'] = dados['desistentes'].dropna()
+    dados['regulares'] = dados['regulares'].dropna()
+    dados['formados'] = dados['formados'].dropna()
+    dados['trancados'] = dados['trancados'].dropna()
+    dados['todos'] = dados['todos'].dropna()
+
     return dados
 
 
