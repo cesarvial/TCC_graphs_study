@@ -71,7 +71,7 @@ def load_disciplinas() -> List:
                 disc_code = entry[1].split('\n')[0]
                 disc_CH = data['todos'][data['todos']['CODIGO'] == disc_code].values[0][8] if len(data['todos'][data['todos']['CODIGO'] == disc_code].values) > 0 else 0
                 disc_periodo = int(entry[0][1].split('\n')[0])
-                disciplinas[entry[1].split('\n')[0]] = Disciplina(ch = int(disc_CH), periodo = disc_periodo, nome = entry[1].split('\n')[0], codigo = entry[1].split('\n')[0], trilha = 'optativa' if disc_periodo != 10 else 'obrigatoria')
+                disciplinas[entry[1].split('\n')[0]] = Disciplina(ch = int(disc_CH), periodo = disc_periodo, nome = entry[1].split('\n')[0], codigo = entry[1].split('\n')[0], trilha = 'Optativas Isoladas' if disc_periodo != 10 else 'obrigatoria')
             elif re.search('P[1-9]', entry[1]) != None:
                 disc_code = entry[0]
                 disc_CH = data['todos'][data['todos']['CODIGO'] == disc_code].values[0][8] if len(data['todos'][data['todos']['CODIGO'] == disc_code].values) > 0 else 0
@@ -94,6 +94,8 @@ def load_disciplinas() -> List:
     matriz = pd.read_csv('input/matriz_844.csv', sep=',')
     for disc in matriz.itertuples():
         #print(disc[3])
+        if disc[3] in disciplinas.keys():
+            disciplinas[disc[3]].periodo = disc[1]
         if(len(str(disc[16]).split(' ')) > 1):
             print(disciplinas[disc[3]].codigo)
             disciplinas[disc[3]].equivalentes = disc[16].split(' ')
