@@ -1,7 +1,6 @@
 import csv
 from typing import List
 from estudante import Estudante
-from disciplina_cursada import DisciplinaCursada
 from disciplina import Disciplina
 
 dados_estudantes = [
