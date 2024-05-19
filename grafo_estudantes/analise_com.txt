@@ -1,0 +1,85 @@
+Comunidade 0: [('CSH30', 89), ('CSH42', 41), ('CSV30', 30), ('MA70C', 22), ('CSR43', 15)]
+INTRODUÇÃO À INTERAÇÃO HUMANO-COMPUTADOR                    "Cauda Longa";"UI/UX"
+ACESSIBILIDADE E INCLUSÃO DIGITAL
+PROCESSAMENTO DIGITAL DE IMAGENS
+CÁLCULO NUMÉRICO
+INFRAESTRUTURA DE WANS
+
+Comunidade 1: [('CSR45', 1), ('CSD40', 1), ('ES70J', 1), ('ES70B', 1)]
+PROJETO DE INFRAESTRUTURA DE REDES                          "?????"
+SIMULAÇÃO DE EVENTOS DISCRETOS
+A PRESENÇA AFRICANA NO BRASIL: TECNOLOGIA E TRABALHO
+PSICOLOGIA APLICADA AO TRABALHO
+
+Comunidade 2: [('CSV30', 21), ('CSV40', 12), ('CSI53', 7), ('ED70T', 5), ('CSB51', 5)]
+PROCESSAMENTO DIGITAL DE IMAGENS                            "Imagens";"Dados"
+COMPUTAÇÃO GRÁFICA
+MINERAÇÃO DE DADOS
+LIBRAS A
+RECUPERAÇÃO INTELIGENTE DE INFORMAÇÕES
+
+Comunidade 3: [('CSI53', 3), ('CSB41', 2), ('CSB54', 2), ('CSI58', 1), ('EEY51', 1)]
+MINERAÇÃO DE DADOS                                          "Dados"
+BANCO DE DADOS 2
+INTRODUCTION TO DATA SCIENCE
+DATA MINING
+INSTRUMENTAÇÃO E TRANSDUÇÃO BIOMÉDICA I
+
+Comunidade 4: [('CSM41', 2), ('CSR41', 1), ('CSR44', 1), ('CSM43', 1), ('MA70C', 1)]
+DESENVOLVIMENTO DE APLICAÇÕES WEB                           "Web";"Redes"
+OFICINA DE REDES
+SEGURANÇA DE REDES E SISTEMAS
+PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS E SEM FIO
+CÁLCULO NUMÉRICO
+
+Comunidade 5: [('CSV30', 2), ('CSI55', 1), ('CSE43', 1), ('CSW45', 1), ('CSI51', 1)]
+PROCESSAMENTO DIGITAL DE IMAGENS                            "Sistemas autonomos ?????"
+SISTEMAS AUTÔNOMOS INTELIGENTES
+TESTES, VERIFICAÇÃO E VALIDAÇÃO DE SISTEMAS
+ROBÓTICA MÓVEL
+COMPUTAÇÃO EVOLUCIONÁRIA
+
+Comunidade 6: [('CSM44', 2), ('DI84D', 2), ('ES70B', 1), ('FCH7HB', 1), ('CSR47', 1)]
+WEB DESIGN                                                  "Web Design"
+Web Design
+PSICOLOGIA APLICADA AO TRABALHO
+HISTÓRIA GERAL DA ECONOMIA
+REDES SEM FIO
+
+Comunidade 7: [('CSB53', 3), ('CSM40', 3), ('CSB51', 2), ('CSR43', 2), ('DI84D', 1)]
+INTRODUÇÃO A CIÊNCIAS DE DADOS                              "Web";"Redes"
+HTML/CSS
+RECUPERAÇÃO INTELIGENTE DE INFORMAÇÕES
+INFRAESTRUTURA DE WANS
+Web Design
+
+Comunidade 8: [('CSA41', 15), ('CSV30', 6), ('CSA45', 5), ('MA70C', 5), ('CSB53', 4)]
+COMPLEXIDADE COMPUTACIONAL                                  "Complexidade"
+PROCESSAMENTO DIGITAL DE IMAGENS                            "Com ctz quantica estaria aqui, esses alunos são literal a gente"
+GEOMETRIA COMPUTACIONAL
+CÁLCULO NUMÉRICO
+INTRODUÇÃO A CIÊNCIAS DE DADOS
+
+Comunidade 9: [('CSR42', 1), ('CSA44', 1)]
+Comunidade 10: [('ED70T', 1), ('CSM40', 1)]
+Comunidade 11: []
+Comunidade 12: [('CSH30', 1)]
+Comunidade 13: [('CSM40', 1)]
+Comunidade 14: [('CSG42', 1), ('CSE40', 1), ('CSM43', 1)]
+Comunidade 15: [('CSH30', 1)]
+Comunidade 16: []
+Comunidade 17: []
+Comunidade 18: [('ES70J', 1)]
+Comunidade 19: [('CSV30', 1)]
+Comunidade 20: [('CSB41', 1)]
+Comunidade 21: []
+Comunidade 22: [('CSB53', 1), ('CSE40', 1)]
+Comunidade 23: [('ED70T', 1)]
+Comunidade 24: []
+Comunidade 25: [('CSA41', 1)]
+Comunidade 26: [('CSA41', 1)]
+Comunidade 27: []
+Comunidade 28: [('FI70A', 1), ('FI70B', 1)]
+Comunidade 29: []
+Comunidade 30: [('CSM40', 1)]
+Comunidade 31: [('FI70A', 1)]

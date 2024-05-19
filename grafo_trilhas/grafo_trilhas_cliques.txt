@@ -1,0 +1,162 @@
+Clique 0
+ID: 190615; Trilhas: ['Algoritmos E Complexidade', 'Banco De Dados']
+ID: 190502; Trilhas: ['Algoritmos E Complexidade', 'Banco De Dados']
+ID: 193637; Trilhas: ['Algoritmos E Complexidade', 'Banco De Dados']
+================================================================================
+Clique 1
+ID: 169044; Trilhas: ['Banco De Dados', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 190494; Trilhas: ['Banco De Dados', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 157060; Trilhas: ['Redes De Computadores', 'Banco De Dados', 'Desenvolvimento Baseado em Plataformas Programacao']
+================================================================================
+Clique 2
+ID: 160836; Trilhas: ['Processamento Grafico', 'Fisica']
+ID: 165894; Trilhas: ['Processamento Grafico', 'Fisica']
+ID: 172974; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'Fisica']
+================================================================================
+Clique 3
+ID: 131014; Trilhas: ['Processamento Grafico', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 186036; Trilhas: ['Processamento Grafico', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 137191; Trilhas: ['Processamento Grafico', 'Desenvolvimento Baseado em Plataformas Programacao']
+================================================================================
+Clique 4
+ID: 123664; Trilhas: ['Otimizacao, Modelos Analiticos e de Simulacao', 'IHC']
+ID: 171745; Trilhas: ['Otimizacao, Modelos Analiticos e de Simulacao', 'Fisica', 'IHC']
+ID: 186026; Trilhas: ['Otimizacao, Modelos Analiticos e de Simulacao', 'IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+================================================================================
+Clique 5
+ID: 123736; Trilhas: ['Otimizacao, Modelos Analiticos e de Simulacao', 'Fisica']
+ID: 160855; Trilhas: ['Otimizacao, Modelos Analiticos e de Simulacao', 'Fisica']
+ID: 110307; Trilhas: ['Otimizacao, Modelos Analiticos e de Simulacao', 'Fisica']
+ID: 171745; Trilhas: ['Otimizacao, Modelos Analiticos e de Simulacao', 'Fisica', 'IHC']
+================================================================================
+Clique 6
+ID: 171746; Trilhas: ['Processamento Grafico', 'Banco De Dados']
+ID: 190495; Trilhas: ['Processamento Grafico', 'Banco De Dados']
+ID: 186037; Trilhas: ['Processamento Grafico', 'Banco De Dados']
+ID: 190508; Trilhas: ['Processamento Grafico', 'Banco De Dados']
+================================================================================
+Clique 7
+ID: 179402; Trilhas: ['Algoritmos E Complexidade', 'Redes De Computadores']
+ID: 123688; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'Algoritmos E Complexidade', 'Redes De Computadores']
+ID: 190706; Trilhas: ['Algoritmos E Complexidade', 'Redes De Computadores']
+ID: 161228; Trilhas: ['Algoritmos E Complexidade', 'Redes De Computadores', 'IHC']
+================================================================================
+Clique 8
+ID: 157060; Trilhas: ['Redes De Computadores', 'Banco De Dados', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 179385; Trilhas: ['Redes De Computadores', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 136734; Trilhas: ['Redes De Computadores', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 190499; Trilhas: ['Redes De Computadores', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 180984; Trilhas: ['Redes De Computadores', 'Desenvolvimento Baseado em Plataformas Programacao']
+================================================================================
+Clique 9
+ID: 126813; Trilhas: ['Redes De Computadores', 'Engenharia De Software', 'Fisica']
+ID: 113853; Trilhas: ['Redes De Computadores', 'Fisica']
+ID: 160846; Trilhas: ['Redes De Computadores', 'Fisica']
+ID: 172207; Trilhas: ['Redes De Computadores', 'Fisica']
+ID: 158257; Trilhas: ['Redes De Computadores', 'Fisica']
+================================================================================
+Clique 10
+ID: 186024; Trilhas: ['Processamento Grafico', 'Redes De Computadores']
+ID: 123677; Trilhas: ['Processamento Grafico', 'Redes De Computadores']
+ID: 193632; Trilhas: ['Processamento Grafico', 'Redes De Computadores']
+ID: 189048; Trilhas: ['Processamento Grafico', 'Redes De Computadores']
+ID: 179652; Trilhas: ['Processamento Grafico', 'Redes De Computadores']
+ID: 150873; Trilhas: ['Processamento Grafico', 'Redes De Computadores']
+ID: 123688; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'Algoritmos E Complexidade', 'Redes De Computadores']
+================================================================================
+Clique 11
+ID: 172974; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'Fisica']
+ID: 123686; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'IHC']
+ID: 183414; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes']
+ID: 179819; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes']
+ID: 172208; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'IHC']
+ID: 171755; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes']
+ID: 123688; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'Algoritmos E Complexidade', 'Redes De Computadores']
+================================================================================
+Clique 12
+ID: 123688; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'Algoritmos E Complexidade', 'Redes De Computadores']
+ID: 161228; Trilhas: ['Algoritmos E Complexidade', 'Redes De Computadores', 'IHC']
+ID: 171750; Trilhas: ['Processamento Grafico', 'Algoritmos E Complexidade', 'IHC']
+================================================================================
+Clique 13
+ID: 123688; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'Algoritmos E Complexidade', 'Redes De Computadores']
+ID: 161228; Trilhas: ['Algoritmos E Complexidade', 'Redes De Computadores', 'IHC']
+ID: 171754; Trilhas: ['Sistemas Inteligentes', 'Redes De Computadores', 'IHC']
+================================================================================
+Clique 14
+ID: 123688; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'Algoritmos E Complexidade', 'Redes De Computadores']
+ID: 123686; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'IHC']
+ID: 172208; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'IHC']
+ID: 171750; Trilhas: ['Processamento Grafico', 'Algoritmos E Complexidade', 'IHC']
+================================================================================
+Clique 15
+ID: 123688; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'Algoritmos E Complexidade', 'Redes De Computadores']
+ID: 123686; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'IHC']
+ID: 172208; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'IHC']
+ID: 171754; Trilhas: ['Sistemas Inteligentes', 'Redes De Computadores', 'IHC']
+================================================================================
+Clique 16
+ID: 123686; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'IHC']
+ID: 172208; Trilhas: ['Processamento Grafico', 'Sistemas Inteligentes', 'IHC']
+ID: 175799; Trilhas: ['Processamento Grafico', 'IHC']
+ID: 175468; Trilhas: ['Processamento Grafico', 'IHC']
+ID: 179822; Trilhas: ['Processamento Grafico', 'IHC']
+ID: 179624; Trilhas: ['Processamento Grafico', 'IHC']
+ID: 171751; Trilhas: ['Processamento Grafico', 'IHC']
+ID: 171750; Trilhas: ['Processamento Grafico', 'Algoritmos E Complexidade', 'IHC']
+ID: 136341; Trilhas: ['Processamento Grafico', 'IHC']
+================================================================================
+Clique 17
+ID: 183413; Trilhas: ['Redes De Computadores', 'IHC']
+ID: 136730; Trilhas: ['Redes De Computadores', 'IHC']
+ID: 202688; Trilhas: ['Redes De Computadores', 'IHC']
+ID: 179389; Trilhas: ['Redes De Computadores', 'IHC']
+ID: 182913; Trilhas: ['Redes De Computadores', 'IHC']
+ID: 179397; Trilhas: ['Redes De Computadores', 'IHC']
+ID: 179393; Trilhas: ['Redes De Computadores', 'Banco De Dados', 'IHC']
+ID: 172248; Trilhas: ['Redes De Computadores', 'IHC']
+ID: 172046; Trilhas: ['Redes De Computadores', 'IHC']
+ID: 171754; Trilhas: ['Sistemas Inteligentes', 'Redes De Computadores', 'IHC']
+ID: 171740; Trilhas: ['Redes De Computadores', 'IHC']
+ID: 165892; Trilhas: ['Redes De Computadores', 'IHC']
+ID: 161228; Trilhas: ['Algoritmos E Complexidade', 'Redes De Computadores', 'IHC']
+================================================================================
+Clique 18
+ID: 198543; Trilhas: ['IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 90729; Trilhas: ['Fisica', 'IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 186026; Trilhas: ['Otimizacao, Modelos Analiticos e de Simulacao', 'IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 177422; Trilhas: ['IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 172042; Trilhas: ['IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 198372; Trilhas: ['IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 191284; Trilhas: ['IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 179408; Trilhas: ['IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 175962; Trilhas: ['IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 165895; Trilhas: ['Fisica', 'IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 161216; Trilhas: ['IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 156158; Trilhas: ['IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 150892; Trilhas: ['IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 118844; Trilhas: ['IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+================================================================================
+Clique 19
+ID: 186026; Trilhas: ['Otimizacao, Modelos Analiticos e de Simulacao', 'IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 90729; Trilhas: ['Fisica', 'IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 165895; Trilhas: ['Fisica', 'IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 171745; Trilhas: ['Otimizacao, Modelos Analiticos e de Simulacao', 'Fisica', 'IHC']
+================================================================================
+Clique 20
+ID: 166050; Trilhas: ['Fisica', 'IHC']
+ID: 90729; Trilhas: ['Fisica', 'IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 160841; Trilhas: ['Fisica', 'IHC']
+ID: 172045; Trilhas: ['Fisica', 'IHC']
+ID: 171749; Trilhas: ['Fisica', 'IHC']
+ID: 171745; Trilhas: ['Otimizacao, Modelos Analiticos e de Simulacao', 'Fisica', 'IHC']
+ID: 165895; Trilhas: ['Fisica', 'IHC', 'Desenvolvimento Baseado em Plataformas Programacao']
+ID: 165685; Trilhas: ['Fisica', 'IHC']
+ID: 165432; Trilhas: ['Fisica', 'IHC']
+ID: 165431; Trilhas: ['Fisica', 'IHC']
+ID: 161223; Trilhas: ['Fisica', 'IHC']
+ID: 160852; Trilhas: ['Fisica', 'IHC']
+ID: 160839; Trilhas: ['Fisica', 'IHC']
+ID: 159067; Trilhas: ['Fisica', 'Banco De Dados', 'IHC']
+ID: 151217; Trilhas: ['Fisica', 'IHC']
+================================================================================
