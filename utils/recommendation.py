@@ -35,9 +35,10 @@ def get_disciplinas_variables():
     # Dada uma disciplinas, busca o seu tipo
     def get_tipo_disciplina(disciplina):
         eletivas = pd.read_csv("../excel/Eletivas.csv", delimiter=",")
-        mapa_eletivas = {}
-        for index, row in eletivas.iterrows():
-            mapa_eletivas[row["CODIGO"]] = row["DISCIPLINA"]
+        #mapa_eletivas = {}
+        #for index, row in eletivas.iterrows():
+        #    mapa_eletivas[row["CODIGO"]] = row["DISCIPLINA"]
+        mapa_eletivas = dict(zip(eletivas["CODIGO"], eletivas["DISCIPLINA"]))
         if disciplina in disciplinas_844:
             return (
                 disciplinas_844[disciplina].trilha
@@ -48,15 +49,28 @@ def get_disciplinas_variables():
             return "ELETIVA"
         else:
             return "NÃO MAPEADA"
+        
     # Obter um mapeamento de disciplinas equivalentes
-    mapeamento_equivalentes = {}
-    for disciplina in disciplinas_844.values():
-        for equivalente in disciplina.disciplinas_equivalentes.keys():
-            mapeamento_equivalentes[equivalente] = disciplina.codigo
+    mapeamento_equivalentes = {
+        equivalente: disciplina.codigo
+        for disciplina in disciplinas_844.values()
+        for equivalente in disciplina.disciplinas_equivalentes.keys()
+    }
+
+    #mapeamento_equivalentes = {}
+    #for disciplina in disciplinas_844.values():
+    #    for equivalente in disciplina.disciplinas_equivalentes.keys():
+    #        mapeamento_equivalentes[equivalente] = disciplina.codigo
     # Obter nome de disciplinas eletivas
     eletivas = pd.read_csv("../excel/Eletivas.csv", delimiter=",")
     mapa_eletivas = {}
-    for index, row in eletivas.iterrows():
+
+    #def monta_mapa(row):
+    #    mapa_eletivas[row["CODIGO"]] = row["DISCIPLINA"]
+
+    #eletivas.map(monta_mapa)
+
+    for _, row in eletivas.iterrows():
         mapa_eletivas[row["CODIGO"]] = row["DISCIPLINA"]
     df = df.replace({"CODIGO": mapeamento_equivalentes})
     df["DISCIPLINA"] = df["CODIGO"].apply(
@@ -222,8 +236,9 @@ def get_leiden_partition():
     partition = H.community_leiden(weights='weight', objective_function='modularity')
     comunidades = []
     for com in enumerate(partition.membership):
-        if (len(comunidades) <= com[1]):
+        while (len(comunidades) <= com[1]):
             comunidades.append([])
+        print(com)
         comunidades[com[1]].append(H.vs()[com[0]]["_nx_name"])
     comunidades_trilhas = []
     for c in comunidades:

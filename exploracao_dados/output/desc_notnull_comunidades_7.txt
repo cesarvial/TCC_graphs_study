@@ -1,0 +1,9 @@
+,ID_ANONIMO,PRECISION,RECALL,PRECISION_OB,RECALL_OB,PRECISION_OP,RECALL_OP
+count,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+mean,,,,,,,
+std,,,,,,,
+min,,,,,,,
+25%,,,,,,,
+50%,,,,,,,
+75%,,,,,,,
+max,,,,,,,
