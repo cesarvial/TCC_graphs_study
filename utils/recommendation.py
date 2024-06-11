@@ -236,7 +236,8 @@ def get_leiden_partition():
     partition = H.community_leiden(weights='weight', objective_function='modularity')
     comunidades = []
     for com in enumerate(partition.membership):
-        while (len(comunidades) <= com[1]):
+        print(com)
+        if (len(comunidades) <= com[1]):
             comunidades.append([])
         print(com)
         comunidades[com[1]].append(H.vs()[com[0]]["_nx_name"])
@@ -370,30 +371,33 @@ def create_full_student_graph(csv_path):
         if not student_G.has_node(line["CODIGO"]):
             student_G.add_node(line["CODIGO"])
     # arestas        
+    # Aqui, o hist possui apenas as disciplinas do estudante, já ordenadas por ano e período
     for i in range(len(hist)):
-        course = hist[i]["CODIGO"]
-        year = hist[i]["ANO"]
-        semester = hist[i]["PERIODO.1"]
-        # começou a análise de outro estudante
+        first_change = True
+        next_year = ''
+        next_semester = ''
         j_init = i
         for j in range(j_init, len(hist)):
-            # cria a aresta/adiciona peso nela
-            edge1 = course
-            edge2 = hist[j]["CODIGO"]
-            if (semester == '1'):
-                # deve ser no mesmo ano e no 2o periodo
-                if hist[j]["ANO"] == year and hist[j]["PERIODO.1"] == '2':
-                    if student_G.has_edge(edge1, edge2):
-                        student_G[edge1][edge2]['weight'] += 1
+            # se for o mesmo ano e semestre do i, passa até mudar
+            # if apenas por claridade
+            if (hist[i]["ANO"] == hist[j]["ANO"] and hist[i]["PERIODO.1"] == hist[j]["PERIODO.1"]):
+                continue
+            else:    
+                if (first_change):
+                    first_change = False
+                    next_year = hist[j]["ANO"]
+                    next_semester = hist[j]["PERIODO.1"]
+                # enquanto for igual, insere
+                if (hist[j]["ANO"] == next_year and hist[j]["PERIODO.1"] == next_semester):
+                    v1 = hist[i]["CODIGO"]
+                    v2 = hist[j]["CODIGO"]
+                    if student_G.has_edge(v1, v2):
+                        student_G[v1][v2]['weight'] += 1
                     else:
-                        student_G.add_edge(edge1, edge2, weight = 1)
-            else:
-                # deve ser no próx ano e no 1o período
-                if hist[j]["ANO"] == str(int(year)+1) and hist[j]["PERIODO.1"] == '1':
-                    if student_G.has_edge(edge1, edge2):
-                        student_G[edge1][edge2]['weight'] += 1
-                    else:
-                        student_G.add_edge(edge1, edge2, weight = 1)
+                        student_G.add_edge(v1, v2, weight = 1)
+                # se for diferente, termina o 2o loop
+                else:
+                    break
     return student_G
 
 
@@ -522,9 +526,17 @@ def get_recommended_courses_from_cliques(g, cliques_trilhas, join_cliques=True):
 def get_recommended_courses_from_communities(g, comunidades_trilhas):
     # pega as disciplinas optativas existentes
     disciplinas = df_844_optativas["CODIGO"].unique()
+    print("QQQQ")
+    print(disciplinas)
+    print("ASSDFSAFASD")
+    print(g.nodes())
     nodes_with_edges = [node for node in g.nodes() if g.degree[node] > 0]
+    print("WWWW")
+    print(nodes_with_edges)
     opt_nodes_with_edges = [node for node in disciplinas
                             if node in nodes_with_edges]
+    print("EEEEE")
+    print(opt_nodes_with_edges)
     # caso não tenham disciplinas optativas existentes, roda com base no interesse
     # TODO: no momento iremos apenas ignorar esse caso
     if (len(opt_nodes_with_edges) == 0):
