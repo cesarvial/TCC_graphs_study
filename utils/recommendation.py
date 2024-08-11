@@ -177,6 +177,9 @@ def create_student_relation_graph_trilhas():
         for j in range(len(estudantes)):
             if (hist[i]["ID_ANONIMO"] == estudantes[j].id_anonimo):
                 if (hist[i]["CODIGO"] in optional):
+                    if (int(estudantes[j].ano_ingresso) <= 17 and 
+                       (hist[i]["CODIGO"] == 'ES70N' or hist[i]["CODIGO"] == 'FI70D' or hist[i]["CODIGO"] == 'FI70A' or hist[i]["CODIGO"] == 'GE70F')):
+                        continue
                     estudantes[j].add_disciplina(hist[i]["CODIGO"])
     # Adiciona as trilhas de cada estudante
     for e in estudantes:
