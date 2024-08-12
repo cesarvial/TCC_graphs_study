@@ -236,10 +236,9 @@ def get_leiden_partition():
     partition = H.community_leiden(weights='weight', objective_function='modularity')
     comunidades = []
     for com in enumerate(partition.membership):
-        print(com)
-        if (len(comunidades) <= com[1]):
+        while (len(comunidades) <= com[1]):
             comunidades.append([])
-        print(com)
+        #print(com)
         comunidades[com[1]].append(H.vs()[com[0]]["_nx_name"])
     comunidades_trilhas = []
     for c in comunidades:

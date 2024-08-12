@@ -1,24 +1,24 @@
 
 90729.0 done
-True Positives: 3
+True Positives: 4
 Sugestoes: ['ES70B', 'CSH42', 'CSR41', 'CSV30', 'CSR44', 'EL6CB', 'CSI53', 'CSI41', 'CSR42', 'EL6CA', 'CSM41', 'EL6CC', 'CSV40', 'CSB51', 'CSA44', 'EL6BC', 'EL6EE', 'ES70J', 'CSV45', 'ED70T', 'CSR43', 'EL6BB', 'CSM43', 'CSB41', 'CSE40', 'CSI56', 'CSR45', 'CSI52', 'CSB53', 'CSD40', 'CSD41', 'DI84D', 'CSM30', 'CSM44', 'CSH41', 'CSM40', 'EL65F', 'IF6BV', 'CSH44', 'CSB54', 'CSA42', 'CSA43', 'EEY41', 'CSI57', 'ED70U', 'CSH43', 'CSD45', 'CSD52', 'EL6BA', 'CSE42', 'CSW45', 'CSD42', 'FI70B', 'CSB52', 'CSW55', 'CSE41', 'CSR40', 'CSR53', 'CSE47', 'EL65B', 'CSI58', 'EEY43', 'IF6CJ', 'CSA45', 'CSG42', 'CSG44', 'EEY42', 'EEY51', 'CSE43', 'CSV52', 'CSH51', 'CSG48', 'FI70E', 'CSV42', 'IF6CK', 'CSW48', 'QB7AH', 'EL66B', 'EEC41', 'CSI31', 'CSH45', 'EEY44', 'MA7AV', 'CSI54', 'CSW47', 'FCH7HB', 'CSR47', 'EL75H', 'CSR48', 'EEL51', 'CSI55', 'CSI51', 'CSV41', 'CSA41']
-Sugestoes com pos proc: [['CSX54'], ['GE70H', 'CSH42', 'FI70B']]
-Recall: 0.75
-Precision: 0.2727272727272727
-Recall Obrigatorias: 0.6666666666666666
+Sugestoes com pos proc: [['CSX54'], ['GE70H', 'CSX43', 'CSH42', 'FI70B']]
+Recall: 0.8
+Precision: 0.36363636363636365
+Recall Obrigatorias: 0.75
 Precision Obrigatorias: 1.0
-Recall Optativas: 0.125
+Recall Optativas: 0.14285714285714285
 Precision Optativas: 0.5
 
 
 118844.0 done
-True Positives: 0
+True Positives: 1
 Sugestoes: ['ES70N', 'FI70D', 'GE70F', 'FI70A', 'ES70B', 'CSR41', 'CSR44', 'CSI53', 'MA70C', 'CSR42', 'CSI41', 'CSV40', 'EL6CB', 'CSB51', 'CSA44', 'ES70J', 'CSM43', 'CSV45', 'CSR43', 'ED70T', 'EL6CC', 'EL6EE', 'CSE40', 'CSB41', 'EL6BC', 'EL6CA', 'CSI56', 'CSB53', 'CSR45', 'EL6BB', 'DI84D', 'CSI52', 'CSM44', 'CSM30', 'CSD40', 'CSD41', 'CSH41', 'CSH44', 'CSA42', 'CSH43', 'EL65F', 'EL6AE', 'EEY41', 'CSB52', 'CSB54', 'EL64B', 'CSI57', 'IF6BV', 'CSA43', 'ED70U', 'CSE41', 'FI70B', 'CSD52', 'CSD45', 'CSW45', 'CSR53', 'CSA45', 'CSI58', 'CSD42', 'CSG42', 'CSE42', 'EL6BA', 'CSR40', 'CSW55', 'EEY42', 'CSE47', 'EEY43', 'EEY51', 'EL65B', 'CSV52', 'CSG44', 'CSE43', 'IF6CJ', 'QB7AH', 'IF6CK', 'CSV42', 'FI70E', 'MA7AV', 'CSI54', 'CSW47', 'CSW48', 'CSG48', 'FCH7HB', 'CSR47', 'EEC41', 'CSH45', 'EL66B', 'CSH51', 'CSI55', 'CSI51', 'CSV41', 'CSA41', 'EEY44', 'EL75H', 'CSR48', 'CSI31', 'EEL51']
-Sugestoes com pos proc: [['CSX42']]
-Recall: 0.0
-Precision: 0.0
-Recall Obrigatorias: 0.0
-Precision Obrigatorias: 0.0
+Sugestoes com pos proc: [['CSX42', 'CSX43', 'ES70N']]
+Recall: 0.3333333333333333
+Precision: 0.5
+Recall Obrigatorias: 0.5
+Precision Obrigatorias: 0.5
 Recall Optativas: 0.0
 Precision Optativas: 0.0
 
@@ -36,23 +36,23 @@ Precision Optativas: 0.0
 
 
 123677.0 done
-True Positives: 0
+True Positives: 1
 Sugestoes: ['FI70D', 'GE70F', 'CSH42', 'ES70B', 'CSR41', 'CSI53', 'MA70C', 'CSI41', 'CSR42', 'CSM41', 'CSB51', 'EL6CB', 'CSM43', 'ED70T', 'CSA44', 'CSB41', 'ES70J', 'CSE40', 'CSI56', 'CSI52', 'EL6EE', 'EL6CC', 'CSB53', 'CSD41', 'EL6CA', 'DI84D', 'CSR45', 'CSM44', 'CSH41', 'EL6BC', 'CSM40', 'CSM30', 'CSH44', 'CSD40', 'EL6BB', 'CSH43', 'CSA42', 'EL64B', 'CSI57', 'EL6AE', 'FI70B', 'EL65F', 'EEY41', 'CSB54', 'CSB52', 'ED70U', 'CSD52', 'IF6BV', 'CSA43', 'CSW45', 'CSD42', 'CSD45', 'CSA45', 'CSR53', 'CSI58', 'CSE41', 'CSG42', 'EEY43', 'CSR40', 'CSW55', 'EEY51', 'CSE47', 'EL65B', 'EEY42', 'EL6BA', 'CSE43', 'CSV52', 'CSG44', 'CSE42', 'EEC41', 'CSH45', 'FI70E', 'QB7AH', 'CSH51', 'CSW48', 'EL66B', 'CSG48', 'MA7AV', 'CSI54', 'CSW47', 'FCH7HB', 'CSR47', 'CSR48', 'CSI55', 'CSI51', 'CSV41', 'EEL51', 'EEY44', 'CSA41', 'IF6CJ', 'EL75H', 'CSI31', 'CSV42', 'IF6CK']
-Sugestoes com pos proc: [['CSH42']]
-Recall: 0.0
-Precision: 0.0
-Recall Obrigatorias: 0.0
-Precision Obrigatorias: 0.0
+Sugestoes com pos proc: [['CSX43', 'CSH42']]
+Recall: 0.5
+Precision: 0.5
+Recall Obrigatorias: 0.5
+Precision Obrigatorias: 1.0
 Recall Optativas: 0.0
 Precision Optativas: 0.0
 
 
 123686.0 done
-True Positives: 1
+True Positives: 2
 Sugestoes: ['FI70D', 'GE70F', 'ES70B', 'CSR41', 'CSR44', 'MA70C', 'CSR42', 'CSV40', 'CSM41', 'CSB51', 'EL6CB', 'CSV45', 'CSA44', 'CSM43', 'ED70T', 'CSR43', 'ES70J', 'EL6CC', 'CSB41', 'CSE40', 'EL6EE', 'CSI56', 'EL6CA', 'CSI52', 'EL6BC', 'CSB53', 'DI84D', 'CSD41', 'CSR45', 'CSM44', 'CSH41', 'EL6BB', 'CSD40', 'CSM40', 'CSM30', 'CSH44', 'CSA42', 'CSH43', 'EL65F', 'CSB52', 'CSI57', 'EEY41', 'EL6AE', 'CSB54', 'CSA43', 'EL64B', 'CSD52', 'CSI58', 'IF6BV', 'FI70B', 'ED70U', 'CSD42', 'CSR53', 'CSA45', 'CSW45', 'CSE41', 'CSG42', 'CSD45', 'EEY42', 'CSR40', 'EEY43', 'CSW55', 'EEY51', 'CSE47', 'EL6BA', 'CSV52', 'CSG44', 'CSE43', 'CSE42', 'QB7AH', 'EL65B', 'IF6CJ', 'MA7AV', 'CSW48', 'IF6CK', 'CSV42', 'EEC41', 'CSI54', 'CSW47', 'CSH45', 'FI70E', 'FCH7HB', 'CSR47', 'CSI55', 'CSI51', 'CSV41', 'CSG48', 'EEL51', 'CSA41', 'CSH51', 'EEY44', 'EL66B', 'CSR48', 'CSI31', 'EL75H']
-Sugestoes com pos proc: [['EEC31', 'CSH41']]
-Recall: 0.5
-Precision: 0.09090909090909091
+Sugestoes com pos proc: [['EEC31', 'CSX43', 'CSH41']]
+Recall: 0.6666666666666666
+Precision: 0.18181818181818182
 Recall Obrigatorias: 0.5
 Precision Obrigatorias: 1.0
 Recall Optativas: 0.0
@@ -60,13 +60,13 @@ Precision Optativas: 0.0
 
 
 123688.0 done
-True Positives: 0
+True Positives: 1
 Sugestoes: ['ES70N', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'ES70B', 'CSR44', 'CSI53', 'MA70C', 'CSV40', 'CSM41', 'CSB51', 'CSV45', 'ED70T', 'CSM43', 'ES70J', 'EL6CB', 'CSR43', 'CSE40', 'CSI52', 'CSB53', 'DI84D', 'EL6CC', 'EL6EE', 'CSM44', 'CSD41', 'CSR45', 'CSM40', 'CSH41', 'CSH44', 'CSM30', 'EL6BC', 'EL6CA', 'CSD40', 'EL6BB', 'CSH43', 'CSA42', 'EEY41', 'CSB54', 'EL64B', 'CSI57', 'ED70U', 'CSB52', 'CSD52', 'CSW45', 'CSA43', 'CSI58', 'FI70B', 'EL6AE', 'EL65F', 'CSD45', 'CSE41', 'IF6BV', 'CSD42', 'EEY43', 'CSG42', 'CSW55', 'EEY42', 'CSE43', 'EEY51', 'CSR40', 'EL65B', 'EL6BA', 'CSV52', 'CSE47', 'CSE42', 'FI70E', 'CSG44', 'CSG48', 'CSH45', 'EEC41', 'EL66B', 'QB7AH', 'CSI55', 'CSI51', 'CSV41', 'CSI54', 'CSW47', 'FCH7HB', 'CSR47', 'CSR48', 'EEL51', 'MA7AV', 'EEY44', 'CSW48', 'CSH51', 'CSA41', 'EL75H', 'IF6CJ', 'CSV42', 'IF6CK', 'CSI31']
-Sugestoes com pos proc: [['CSS30', 'CSB51']]
-Recall: 0.0
-Precision: 0.0
-Recall Obrigatorias: 0.0
-Precision Obrigatorias: 0.0
+Sugestoes com pos proc: [['CSS30', 'CSX43', 'CSB51']]
+Recall: 0.3333333333333333
+Precision: 0.25
+Recall Obrigatorias: 0.5
+Precision Obrigatorias: 0.5
 Recall Optativas: 0.0
 Precision Optativas: 0.0
 
@@ -74,7 +74,7 @@ Precision Optativas: 0.0
 129034.0 done
 True Positives: 0
 Sugestoes: ['FI70D', 'CSH30', 'FI70A', 'EL6CB', 'CSH42', 'CSR41', 'MA70C', 'EL6CC', 'EL6CA', 'EL6EE', 'EL6BC', 'CSV30', 'CSR44', 'CSA44', 'CSI41', 'EL6BB', 'CSR42', 'CSM41', 'CSI53', 'CSV40', 'ED70T', 'CSV45', 'CSI56', 'CSR43', 'CSE40', 'CSB51', 'CSI52', 'EL6AE', 'CSM43', 'EL65F', 'CSD41', 'CSM30', 'CSB53', 'CSH41', 'CSB41', 'IF6BV', 'EL6BA', 'DI84D', 'CSE42', 'CSH43', 'CSA43', 'CSM44', 'CSE47', 'CSH44', 'CSW55', 'EL65B', 'CSR53', 'IF6CJ', 'CSE41', 'CSI57', 'CSR40', 'EL64B', 'CSD45', 'CSM40', 'CSD42', 'CSA42', 'CSD52', 'CSG44', 'CSG42', 'CSW45', 'EEY41', 'CSV42', 'IF6CK', 'CSI58', 'CSB52', 'FI70B', 'EEY43', 'CSA45', 'EEY42', 'ED70U', 'EL66B', 'EEY51', 'CSI54', 'CSW47', 'CSB54', 'MA7AV', 'CSW48', 'QB7AH', 'FCH7HB', 'CSR47', 'FI70E', 'CSH45', 'CSE43', 'CSG48', 'EEC41', 'CSH51', 'CSI55', 'CSI51', 'CSV41', 'CSI31', 'CSR48', 'CSV52', 'EL75H', 'EEL51', 'EEY44']
-Sugestoes com pos proc: [['FI71S', 'CSH30', 'CSF20', 'QB70C', 'FI72S', 'EEX11'], ['MA73A', 'EEB21', 'FI73S', 'EEX21', 'EEF11', 'EEQ31'], ['EEB22', 'FI74S', 'FI74N', 'CSR31', 'EEF21', 'EEE31', 'ES70G'], ['CSW40', 'EEE32', 'CSX54'], ['EEX22', 'EEC21', 'ES70P', 'EEC31', 'EEX23', 'CSX42']]
+Sugestoes com pos proc: [['FI71S', 'CSF20', 'QB70C', 'MA73A', 'EEB21', 'EEF11'], ['EEQ31', 'FI74S', 'CSR31', 'EEF21', 'CSW40', 'EEE32'], ['EEC21', 'EEC31', 'CSX42', 'CSX43', 'CSH30']]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0
@@ -110,7 +110,7 @@ Precision Optativas: 0.0
 136731.0 done
 True Positives: 0
 Sugestoes: ['ES70N', 'CSH30', 'FI70D', 'GE70F', 'FI70A', 'CSH42', 'ES70B', 'CSV30', 'CSR41', 'CSI53', 'CSI41', 'CSR42', 'CSV40', 'CSM41', 'CSB51', 'CSV45', 'ED70T', 'CSM43', 'CSR43', 'EL6CB', 'ES70J', 'CSB41', 'CSA44', 'CSE40', 'CSI56', 'EL6EE', 'DI84D', 'EL6CA', 'CSB53', 'EL6BC', 'CSI52', 'CSM44', 'CSD41', 'CSM40', 'CSM30', 'CSH41', 'CSH44', 'EL6BB', 'CSA42', 'CSH43', 'EEY41', 'CSB54', 'CSB52', 'EL6AE', 'EL65F', 'CSI57', 'EL64B', 'ED70U', 'IF6BV', 'CSI58', 'CSA43', 'FI70B', 'CSG42', 'CSA45', 'CSR53', 'CSW45', 'CSD52', 'CSD42', 'CSE41', 'CSD45', 'EEY42', 'CSW55', 'CSR40', 'EEY51', 'CSV52', 'CSE43', 'EEY43', 'CSE47', 'EL6BA', 'EL65B', 'IF6CJ', 'CSI54', 'CSW47', 'MA7AV', 'QB7AH', 'EEC41', 'EEY44', 'CSG44', 'CSH51', 'CSE42', 'CSG48', 'FCH7HB', 'CSR47', 'EL75H', 'CSH45', 'CSI55', 'CSI51', 'CSV41', 'CSI31', 'FI70E', 'CSW48', 'CSA41', 'EL66B', 'CSR48', 'EEL51', 'IF6CK', 'CSV42']
-Sugestoes com pos proc: [['CSS30', 'EEX23', 'ES70N', 'FI70D', 'FI70A', 'ES70B', 'CSR41'], ['EEC31', 'CSH30', 'CSR42', 'CSX42', 'QB70E', 'GE70H']]
+Sugestoes com pos proc: [['CSS30', 'EEX23', 'CSX42', 'QB70E', 'CSX43', 'ES70N', 'FI70D', 'FI70A'], ['ES70B', 'CSR41', 'CSI41', 'CSR43']]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0
@@ -120,13 +120,13 @@ Precision Optativas: 0.0
 
 
 136736.0 done
-True Positives: 0
+True Positives: 1
 Sugestoes: ['ES70N', 'CSH30', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'ES70B', 'CSR41', 'CSR44', 'MA70C', 'CSR42', 'CSI41', 'CSM41', 'CSV45', 'CSM43', 'CSB41', 'CSR43', 'CSA44', 'ES70J', 'CSE40', 'EL6CB', 'DI84D', 'CSB53', 'CSI56', 'CSM44', 'EL6EE', 'CSI52', 'CSM40', 'CSD41', 'EL6CC', 'CSH44', 'CSH41', 'EL6CA', 'CSM30', 'EL6BC', 'CSR45', 'CSD40', 'CSB54', 'EEY41', 'EL6BB', 'CSH43', 'CSB52', 'CSI57', 'CSW45', 'CSA45', 'EL64B', 'FI70B', 'CSI58', 'CSR53', 'EL65F', 'CSA43', 'IF6BV', 'EL6AE', 'CSD45', 'CSD52', 'CSE43', 'EEY42', 'CSD42', 'CSE41', 'CSV52', 'CSR40', 'EEY43', 'CSW55', 'EEY51', 'CSE47', 'EL65B', 'CSI55', 'CSI51', 'CSV41', 'EL6BA', 'EEC41', 'EEY44', 'CSH45', 'IF6CJ', 'CSH51', 'CSA41', 'CSG48', 'EL75H', 'CSG44', 'CSV42', 'IF6CK', 'FCH7HB', 'CSR47', 'FI70E', 'CSR48', 'CSW48', 'QB7AH', 'EL66B', 'CSE42', 'MA7AV', 'EEL51', 'CSI31', 'CSI54', 'CSW47']
-Sugestoes com pos proc: [['CSB41', 'CSA44']]
-Recall: 0.0
-Precision: 0.0
-Recall Obrigatorias: 0.0
-Precision Obrigatorias: 0.0
+Sugestoes com pos proc: [['CSX43', 'CSB41', 'CSA44']]
+Recall: 0.3333333333333333
+Precision: 0.5
+Recall Obrigatorias: 0.5
+Precision Obrigatorias: 1.0
 Recall Optativas: 0.0
 Precision Optativas: 0.0
 
@@ -143,22 +143,46 @@ Recall Optativas: 0.0
 Precision Optativas: 0.0
 
 
-150887.0 done
-True Positives: 2
-Sugestoes: ['FI70D', 'CSH30', 'GE70F', 'FI70A', 'CSH42', 'ES70B', 'CSV30', 'CSR41', 'CSR44', 'MA70C', 'CSR42', 'CSI41', 'CSV40', 'CSM41', 'CSB51', 'EL6CB', 'CSM43', 'CSV45', 'CSR43', 'CSA44', 'CSE40', 'DI84D', 'EL6EE', 'CSB53', 'EL6CC', 'CSM44', 'CSI52', 'CSM40', 'CSI56', 'CSR45', 'EL6BC', 'CSD41', 'CSH41', 'CSH44', 'EL6BB', 'EL6CA', 'CSD40', 'CSM30', 'CSA42', 'CSH43', 'EL64B', 'CSB52', 'EEY41', 'ED70U', 'EL65F', 'IF6BV', 'CSI57', 'CSD52', 'CSI58', 'CSW45', 'EL6AE', 'CSA43', 'CSR53', 'CSA45', 'CSD42', 'CSE41', 'FI70B', 'CSD45', 'CSE43', 'CSR40', 'CSG42', 'CSV52', 'EEY51', 'EEY43', 'EL6BA', 'CSE47', 'EEY42', 'EL65B', 'CSE42', 'CSW55', 'CSG44', 'EL75H', 'EEY44', 'IF6CJ', 'FCH7HB', 'CSR47', 'EEL51', 'FI70E', 'EEC41', 'QB7AH', 'CSR48', 'CSH51', 'IF6CK', 'CSV42', 'EL66B', 'CSI54', 'CSW47', 'CSI55', 'CSI51', 'CSV41', 'MA7AV', 'CSA41', 'CSH45', 'CSW48', 'CSG48']
-Sugestoes com pos proc: [['EEC31', 'CSX42']]
+150878.0 done
+True Positives: 1
+Sugestoes: ['FI70D', 'GE70F', 'FI70A', 'CSH42', 'CSV30', 'CSR41', 'CSR44', 'CSI53', 'MA70C', 'CSR42', 'CSV40', 'CSI41', 'CSB51', 'EL6CB', 'CSM43', 'ED70T', 'CSB41', 'CSV45', 'CSR43', 'CSA44', 'DI84D', 'CSE40', 'CSM44', 'EL6EE', 'CSB53', 'CSR45', 'EL6CC', 'EL6BC', 'CSM40', 'CSI52', 'CSI56', 'EL6BB', 'CSH41', 'CSD40', 'CSD41', 'CSM30', 'EL6CA', 'CSA42', 'CSH43', 'CSB54', 'ED70U', 'EEY41', 'EL64B', 'CSI57', 'CSB52', 'EL65F', 'CSD52', 'CSW45', 'IF6BV', 'CSR53', 'EL6AE', 'FI70B', 'CSI58', 'CSE41', 'CSA45', 'CSD45', 'CSR40', 'CSA43', 'CSE42', 'CSD42', 'CSG42', 'EEY43', 'CSE47', 'EEY51', 'CSG44', 'CSV52', 'CSE43', 'CSW55', 'EEY42', 'EL6BA', 'EL65B', 'FI70E', 'EEC41', 'CSI31', 'CSR48', 'EEL51', 'FCH7HB', 'CSR47', 'CSH45', 'EEY44', 'CSW48', 'IF6CJ', 'CSI55', 'CSI51', 'CSV41', 'CSG48', 'EL66B', 'QB7AH', 'CSV42', 'IF6CK', 'CSA41', 'CSH51', 'EL75H', 'CSI54', 'CSW47', 'MA7AV']
+Sugestoes com pos proc: [['CSX43']]
 Recall: 1.0
-Precision: 0.2857142857142857
-Recall Obrigatorias: 0.6666666666666666
+Precision: 0.5
+Recall Obrigatorias: 0.5
+Precision Obrigatorias: 1.0
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+150887.0 done
+True Positives: 3
+Sugestoes: ['FI70D', 'CSH30', 'GE70F', 'FI70A', 'CSH42', 'ES70B', 'CSV30', 'CSR41', 'CSR44', 'MA70C', 'CSR42', 'CSI41', 'CSV40', 'CSM41', 'CSB51', 'EL6CB', 'CSM43', 'CSV45', 'CSR43', 'CSA44', 'CSE40', 'DI84D', 'EL6EE', 'CSB53', 'EL6CC', 'CSM44', 'CSI52', 'CSM40', 'CSI56', 'CSR45', 'EL6BC', 'CSD41', 'CSH41', 'CSH44', 'EL6BB', 'EL6CA', 'CSD40', 'CSM30', 'CSA42', 'CSH43', 'EL64B', 'CSB52', 'EEY41', 'ED70U', 'EL65F', 'IF6BV', 'CSI57', 'CSD52', 'CSI58', 'CSW45', 'EL6AE', 'CSA43', 'CSR53', 'CSA45', 'CSD42', 'CSE41', 'FI70B', 'CSD45', 'CSE43', 'CSR40', 'CSG42', 'CSV52', 'EEY51', 'EEY43', 'EL6BA', 'CSE47', 'EEY42', 'EL65B', 'CSE42', 'CSW55', 'CSG44', 'EL75H', 'EEY44', 'IF6CJ', 'FCH7HB', 'CSR47', 'EEL51', 'FI70E', 'EEC41', 'QB7AH', 'CSR48', 'CSH51', 'IF6CK', 'CSV42', 'EL66B', 'CSI54', 'CSW47', 'CSI55', 'CSI51', 'CSV41', 'MA7AV', 'CSA41', 'CSH45', 'CSW48', 'CSG48']
+Sugestoes com pos proc: [['EEC31', 'CSX42', 'CSX43']]
+Recall: 1.0
+Precision: 0.42857142857142855
+Recall Obrigatorias: 0.75
 Precision Obrigatorias: 1.0
 Recall Optativas: 0.0
 Precision Optativas: 0.0
 
 
 151217.0 done
-True Positives: 0
+True Positives: 1
 Sugestoes: ['ES70N', 'CSR41', 'ES70B', 'CSV30', 'CSR44', 'CSI53', 'MA70C', 'CSR42', 'CSM41', 'CSI41', 'CSB51', 'CSV40', 'CSM43', 'ES70J', 'ED70T', 'CSR43', 'EL6CB', 'CSV45', 'CSA44', 'DI84D', 'CSE40', 'CSI52', 'CSB53', 'CSM44', 'EL6EE', 'CSD41', 'CSI56', 'CSM40', 'CSR45', 'CSH41', 'CSH44', 'EL6CC', 'CSM30', 'EL6BC', 'CSD40', 'CSH43', 'EL6BB', 'CSB54', 'CSA42', 'EL64B', 'CSB52', 'EEY41', 'EL6CA', 'CSD52', 'EL65F', 'CSW45', 'CSI57', 'FI70B', 'EL6AE', 'CSI58', 'CSR40', 'CSR53', 'CSA43', 'CSE41', 'CSA45', 'EEY51', 'CSD42', 'CSD45', 'EEY42', 'CSE47', 'CSV52', 'CSE43', 'CSG42', 'CSE42', 'CSW55', 'EEY43', 'EL65B', 'CSI31', 'CSH45', 'EEY44', 'FI70E', 'CSR48', 'MA7AV', 'CSG44', 'EL66B', 'EL75H', 'EEL51', 'CSW48', 'FCH7HB', 'CSR47', 'QB7AH', 'CSG48', 'CSI55', 'CSI51', 'CSV41', 'EEC41', 'CSH51', 'EL6BA', 'CSI54', 'CSW47', 'CSV42', 'IF6CK', 'CSA41', 'IF6CJ']
-Sugestoes com pos proc: [['CSB51']]
+Sugestoes com pos proc: [['CSX43', 'CSB51']]
+Recall: 0.5
+Precision: 0.3333333333333333
+Recall Obrigatorias: 0.5
+Precision Obrigatorias: 1.0
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+156158.0 done
+True Positives: 0
+Sugestoes: ['ES70N', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'CSV30', 'CSR41', 'CSR44', 'ES70B', 'CSI53', 'CSR42', 'CSV40', 'CSI41', 'CSM41', 'CSB51', 'ED70T', 'CSB41', 'CSV45', 'CSR43', 'ES70J', 'DI84D', 'CSA44', 'CSE40', 'CSM44', 'CSB53', 'EL6CB', 'CSI52', 'CSI56', 'CSD41', 'CSH41', 'CSR45', 'CSA42', 'CSM30', 'EL6EE', 'EL6CC', 'CSB54', 'CSD40', 'CSH43', 'CSB52', 'EL6BC', 'EEY41', 'EL64B', 'EL6BB', 'ED70U', 'EL6CA', 'CSI57', 'CSW45', 'CSA43', 'CSI58', 'CSA45', 'CSD52', 'CSR53', 'CSV52', 'FI70B', 'CSD45', 'CSD42', 'IF6BV', 'CSE43', 'CSE41', 'EL65F', 'CSG42', 'EEY42', 'CSR40', 'EEY51', 'EL6AE', 'EEY43', 'CSE47', 'CSW55', 'EL75H', 'CSR48', 'EEY44', 'CSI31', 'EL65B', 'CSG44', 'CSH51', 'FCH7HB', 'CSR47', 'EEL51', 'CSH45', 'EEC41', 'EL6BA', 'CSI55', 'CSI51', 'CSV41', 'CSG48', 'MA7AV', 'CSV42', 'IF6CK', 'CSA41', 'FI70E', 'QB7AH', 'EL66B', 'CSI54', 'CSW47', 'CSW48', 'CSE42', 'IF6CJ']
+Sugestoes com pos proc: [['ES70N']]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0
@@ -182,7 +206,7 @@ Precision Optativas: 0.0
 169043.0 done
 True Positives: 0
 Sugestoes: ['ES70N', 'FI70D', 'GE70F', 'FI70A', 'CSH42', 'ES70B', 'CSR41', 'CSI53', 'CSI41', 'CSR42', 'CSV40', 'CSM41', 'CSB51', 'CSV45', 'ED70T', 'EL6CB', 'CSM43', 'ES70J', 'CSR43', 'CSB41', 'CSE40', 'EL6CC', 'EL6EE', 'CSI56', 'DI84D', 'CSI52', 'CSB53', 'EL6CA', 'CSM44', 'EL6BC', 'CSD41', 'CSM40', 'CSD40', 'CSH41', 'CSM30', 'EL6BB', 'CSH44', 'CSA42', 'CSH43', 'CSB54', 'EEY41', 'EL65F', 'EL64B', 'CSI57', 'CSA43', 'ED70U', 'EL6AE', 'CSD52', 'IF6BV', 'CSA45', 'CSR53', 'CSW45', 'CSG42', 'CSD45', 'CSD42', 'FI70B', 'CSE41', 'EEY42', 'CSR40', 'CSW55', 'EEY51', 'CSE43', 'EEY43', 'CSV52', 'CSE47', 'EL6BA', 'EL65B', 'CSG44', 'IF6CJ', 'CSE42', 'CSI54', 'CSW47', 'MA7AV', 'IF6CK', 'CSV42', 'QB7AH', 'CSH45', 'EL75H', 'EEY44', 'FCH7HB', 'CSR47', 'FI70E', 'CSH51', 'CSI55', 'CSI51', 'CSV41', 'EEC41', 'CSR48', 'CSA41', 'EL66B', 'CSI31', 'CSW48', 'EEL51', 'CSG48']
-Sugestoes com pos proc: [['CSX54'], ['EEC31', 'ES70N', 'CSH42', 'CSA42', 'CSX42', 'QB70E', 'GE70H']]
+Sugestoes com pos proc: [['CSX54'], ['EEC31', 'CSX42', 'QB70E', 'CSX43', 'ES70N', 'CSH42', 'CSA42']]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0
@@ -192,45 +216,57 @@ Precision Optativas: 0.0
 
 
 171740.0 done
-True Positives: 1
+True Positives: 2
 Sugestoes: ['FI70D', 'GE70F', 'ES70B', 'CSV30', 'CSR41', 'MA70C', 'CSI41', 'CSV40', 'CSM41', 'EL6CB', 'CSB51', 'ES70J', 'CSM43', 'CSV45', 'CSA44', 'ED70T', 'CSR43', 'EL6CC', 'CSB41', 'EL6EE', 'EL6CA', 'CSE40', 'EL6BC', 'CSI56', 'DI84D', 'CSB53', 'CSR45', 'CSI52', 'CSM44', 'CSD41', 'EL6BB', 'CSH41', 'CSM40', 'CSM30', 'CSD40', 'CSH44', 'CSA42', 'CSH43', 'EL65F', 'CSB52', 'CSB54', 'EL6AE', 'ED70U', 'EEY41', 'EL64B', 'CSI57', 'IF6BV', 'FI70B', 'CSW45', 'CSA43', 'CSD52', 'CSI58', 'CSR53', 'CSD42', 'CSG42', 'CSA45', 'CSR40', 'CSE41', 'CSD45', 'CSE42', 'CSW55', 'EL6BA', 'CSV52', 'EL65B', 'EEY43', 'CSE47', 'CSE43', 'EEY42', 'CSG44', 'EEY51', 'CSV42', 'IF6CK', 'IF6CJ', 'FI70E', 'EEC41', 'FCH7HB', 'CSR47', 'CSW48', 'EL66B', 'CSI55', 'CSI51', 'CSV41', 'EEY44', 'QB7AH', 'CSI54', 'CSW47', 'CSI31', 'CSH45', 'CSR48', 'EL75H', 'EEL51', 'MA7AV', 'CSG48', 'CSA41', 'CSH51']
-Sugestoes com pos proc: [['CSX54'], ['CSI41']]
-Recall: 0.5
-Precision: 0.2
-Recall Obrigatorias: 0.5
+Sugestoes com pos proc: [['CSX54'], ['CSX43', 'CSI41']]
+Recall: 0.6666666666666666
+Precision: 0.4
+Recall Obrigatorias: 0.6666666666666666
 Precision Obrigatorias: 1.0
 Recall Optativas: 0.0
 Precision Optativas: 0.0
 
 
 171745.0 done
-True Positives: 0
+True Positives: 1
 Sugestoes: ['FI70D', 'GE70F', 'ES70B', 'CSV30', 'CSR41', 'CSR44', 'CSI53', 'CSR42', 'CSI41', 'CSV40', 'CSM41', 'CSB51', 'EL6CB', 'CSV45', 'CSM43', 'CSR43', 'ES70J', 'ED70T', 'CSA44', 'CSB41', 'EL6CC', 'CSE40', 'EL6EE', 'EL6CA', 'CSB53', 'CSI56', 'DI84D', 'EL6BC', 'CSI52', 'CSM44', 'CSH41', 'CSR45', 'CSM30', 'EL6BB', 'CSH44', 'CSM40', 'CSD40', 'CSA42', 'CSH43', 'EL6AE', 'EL65F', 'CSB54', 'EL64B', 'EEY41', 'ED70U', 'IF6BV', 'CSI57', 'CSB52', 'CSW45', 'CSA43', 'CSA45', 'CSD52', 'CSG42', 'CSD42', 'CSI58', 'CSR53', 'CSR40', 'CSE41', 'CSW55', 'CSD45', 'EEY43', 'CSE47', 'EL65B', 'EL6BA', 'EEY51', 'CSE43', 'CSE42', 'CSG44', 'CSV52', 'EEY42', 'IF6CJ', 'EEC41', 'FCH7HB', 'CSR47', 'FI70E', 'QB7AH', 'CSH45', 'CSW48', 'CSV42', 'IF6CK', 'CSA41', 'CSI54', 'CSW47', 'CSI55', 'CSI51', 'CSV41', 'EEY44', 'EL66B', 'CSR48', 'EEL51', 'CSI31', 'CSH51', 'MA7AV', 'CSG48', 'EL75H']
-Sugestoes com pos proc: [['CSH41']]
-Recall: 0.0
-Precision: 0.0
-Recall Obrigatorias: 0.0
-Precision Obrigatorias: 0.0
+Sugestoes com pos proc: [['CSX43', 'CSH41']]
+Recall: 0.5
+Precision: 0.5
+Recall Obrigatorias: 0.5
+Precision Obrigatorias: 1.0
 Recall Optativas: 0.0
 Precision Optativas: 0.0
 
 
 171749.0 done
-True Positives: 0
+True Positives: 1
 Sugestoes: ['FI70D', 'ES70B', 'CSV30', 'CSR41', 'CSR44', 'CSI53', 'MA70C', 'CSI41', 'CSR42', 'CSV40', 'CSM41', 'EL6CB', 'CSB51', 'CSV45', 'CSA44', 'EL6CC', 'CSM43', 'ES70J', 'CSR43', 'ED70T', 'EL6EE', 'EL6BC', 'CSB41', 'EL6CA', 'CSI56', 'CSI52', 'CSR45', 'CSB53', 'EL6BB', 'CSD41', 'DI84D', 'CSM30', 'CSH41', 'CSD40', 'CSM44', 'CSM40', 'CSH43', 'CSH44', 'CSA42', 'EL65F', 'EL6AE', 'EEY41', 'IF6BV', 'EL64B', 'CSB54', 'CSI57', 'CSA43', 'CSD52', 'ED70U', 'CSB52', 'CSW45', 'CSD42', 'CSE41', 'CSD45', 'CSA45', 'CSR53', 'CSE42', 'CSI58', 'CSR40', 'EEY43', 'CSW55', 'EL6BA', 'CSE47', 'EEY42', 'EL65B', 'CSG44', 'CSE43', 'EEY51', 'CSV52', 'IF6CJ', 'QB7AH', 'EEC41', 'CSI54', 'CSW47', 'FI70E', 'CSG48', 'MA7AV', 'CSW48', 'IF6CK', 'CSV42', 'CSH51', 'CSI55', 'CSI51', 'CSV41', 'CSA41', 'FCH7HB', 'CSR47', 'EEY44', 'EL66B', 'CSH45', 'EL75H', 'CSR48', 'CSI31', 'EEL51']
-Sugestoes com pos proc: [['CSM30']]
-Recall: 0.0
-Precision: 0.0
-Recall Obrigatorias: 0.0
-Precision Obrigatorias: 0.0
+Sugestoes com pos proc: [['CSX43', 'CSM30']]
+Recall: 0.5
+Precision: 1.0
+Recall Obrigatorias: 1.0
+Precision Obrigatorias: 1.0
 Recall Optativas: 0.0
 Precision Optativas: 0.0
 
 
 171750.0 done
-True Positives: 0
+True Positives: 1
 Sugestoes: ['FI70D', 'GE70F', 'ES70B', 'CSR41', 'CSR44', 'CSI53', 'MA70C', 'CSI41', 'CSV40', 'CSM41', 'CSB51', 'EL6CB', 'ED70T', 'CSA44', 'ES70J', 'CSR43', 'EL6CC', 'CSM43', 'EL6EE', 'CSB41', 'CSE40', 'EL6CA', 'EL6BC', 'CSI56', 'CSI52', 'CSB53', 'CSR45', 'DI84D', 'CSD41', 'EL6BB', 'CSM44', 'CSD40', 'CSM30', 'CSH41', 'CSM40', 'CSH44', 'CSA42', 'CSH43', 'EL65F', 'EEY41', 'CSB54', 'EL6AE', 'CSB52', 'EL64B', 'IF6BV', 'ED70U', 'CSD52', 'CSI57', 'FI70B', 'CSW45', 'CSI58', 'CSG42', 'EL6BA', 'CSD42', 'CSR53', 'CSD45', 'CSE41', 'EEY42', 'CSR40', 'CSW55', 'EL65B', 'EEY43', 'CSE47', 'EEY51', 'IF6CJ', 'CSE43', 'CSE42', 'CSV52', 'IF6CK', 'CSV42', 'CSG44', 'EEC41', 'QB7AH', 'MA7AV', 'FI70E', 'CSW48', 'EL66B', 'CSI54', 'CSW47', 'EEY44', 'CSI31', 'EL75H', 'CSA41', 'FCH7HB', 'CSR47', 'CSH51', 'CSG48', 'CSH45', 'CSR48', 'CSI55', 'CSI51', 'CSV41', 'EEL51']
-Sugestoes com pos proc: [['CSH41']]
+Sugestoes com pos proc: [['CSX43', 'CSH41']]
+Recall: 0.5
+Precision: 0.5
+Recall Obrigatorias: 0.5
+Precision Obrigatorias: 1.0
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+171751.0 done
+True Positives: 0
+Sugestoes: ['FI70D', 'GE70F', 'FI70A', 'ES70B', 'CSR41', 'CSR44', 'CSI53', 'MA70C', 'CSR42', 'CSI41', 'CSM41', 'CSB51', 'EL6CB', 'ES70J', 'CSM43', 'ED70T', 'CSA44', 'CSR43', 'CSB41', 'CSE40', 'EL6EE', 'EL6CC', 'CSI56', 'CSI52', 'DI84D', 'CSB53', 'EL6BC', 'CSD41', 'CSM44', 'CSR45', 'EL6CA', 'CSH41', 'EL6BB', 'CSM30', 'CSH44', 'CSM40', 'CSD40', 'CSA42', 'CSH43', 'EEY41', 'CSB54', 'ED70U', 'FI70B', 'EL64B', 'EL6AE', 'EL65F', 'IF6BV', 'CSA43', 'CSW45', 'CSA45', 'CSR53', 'CSI57', 'CSB52', 'CSD52', 'CSD42', 'CSI58', 'CSD45', 'CSE41', 'CSR40', 'CSG42', 'EEY43', 'CSW55', 'CSE47', 'EL6BA', 'EL65B', 'CSE42', 'EEY51', 'EEY42', 'CSE43', 'CSV42', 'IF6CK', 'CSV52', 'CSG44', 'FI70E', 'EEC41', 'IF6CJ', 'CSH45', 'FCH7HB', 'CSR47', 'QB7AH', 'CSI55', 'CSI51', 'CSV41', 'EL66B', 'CSG48', 'CSW48', 'CSI54', 'CSW47', 'EEL51', 'CSI31', 'CSR48', 'EEY44', 'CSA41', 'CSH51', 'MA7AV', 'EL75H']
+Sugestoes com pos proc: [['FI70D', 'FI70A']]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0
@@ -240,14 +276,14 @@ Precision Optativas: 0.0
 
 
 171754.0 done
-True Positives: 1
+True Positives: 2
 Sugestoes: ['FI70D', 'GE70F', 'ES70B', 'CSV30', 'CSR41', 'MA70C', 'CSI41', 'CSV40', 'CSB51', 'CSM41', 'EL6CB', 'CSV45', 'ED70T', 'CSA44', 'CSM43', 'ES70J', 'CSB41', 'EL6CC', 'CSE40', 'CSR43', 'EL6EE', 'EL6BC', 'EL6CA', 'CSB53', 'CSI56', 'DI84D', 'CSI52', 'CSD41', 'CSR45', 'EL6BB', 'CSM40', 'CSM44', 'CSD40', 'CSM30', 'CSH41', 'CSA42', 'CSH44', 'CSH43', 'CSB54', 'EL65F', 'CSB52', 'EEY41', 'ED70U', 'EL64B', 'EL6AE', 'CSG42', 'IF6BV', 'FI70B', 'CSI57', 'CSI58', 'CSA43', 'CSA45', 'CSD42', 'CSD52', 'CSR53', 'CSE41', 'CSW45', 'EEY42', 'CSW55', 'CSR40', 'CSD45', 'EEY51', 'CSE43', 'CSE47', 'CSV52', 'EEY43', 'IF6CJ', 'CSE42', 'EL6BA', 'EL65B', 'CSG44', 'MA7AV', 'EL75H', 'QB7AH', 'IF6CK', 'CSV42', 'EEC41', 'CSI54', 'CSW47', 'CSR48', 'EEY44', 'FI70E', 'CSH51', 'CSA41', 'CSW48', 'CSH45', 'CSI31', 'CSG48', 'CSI55', 'CSI51', 'CSV41', 'EEL51', 'EL66B', 'FCH7HB', 'CSR47']
-Sugestoes com pos proc: [['CSI41', 'CSH41']]
-Recall: 0.5
-Precision: 0.2
-Recall Obrigatorias: 0.0
-Precision Obrigatorias: 0.0
-Recall Optativas: 0.25
+Sugestoes com pos proc: [['CSX43', 'CSI41', 'CSH41']]
+Recall: 0.6666666666666666
+Precision: 0.4
+Recall Obrigatorias: 0.5
+Precision Obrigatorias: 1.0
+Recall Optativas: 0.3333333333333333
 Precision Optativas: 0.5
 
 
@@ -326,6 +362,18 @@ Precision Optativas: 0.0
 175962.0 done
 True Positives: 0
 Sugestoes: ['ES70N', 'FI70D', 'GE70F', 'FI70A', 'ES70B', 'CSR41', 'CSV30', 'CSR44', 'MA70C', 'CSI53', 'CSR42', 'CSI41', 'CSV40', 'EL6CB', 'CSB51', 'CSV45', 'ED70T', 'CSM43', 'ES70J', 'CSR43', 'CSA44', 'CSE40', 'CSB41', 'EL6CC', 'EL6EE', 'EL6BC', 'CSI52', 'CSI56', 'CSR45', 'EL6CA', 'CSH41', 'CSD41', 'EL6BB', 'CSM30', 'CSM40', 'CSH44', 'CSD40', 'CSA42', 'CSH43', 'EL65F', 'IF6BV', 'ED70U', 'EEY41', 'EL6AE', 'CSB54', 'EL64B', 'CSB52', 'FI70B', 'CSI57', 'CSW45', 'CSD52', 'CSA43', 'CSR53', 'CSE41', 'CSD45', 'CSA45', 'CSD42', 'CSI58', 'CSG42', 'CSR40', 'CSE42', 'EL6BA', 'EEY43', 'CSE47', 'CSW55', 'CSV52', 'EL65B', 'EEY51', 'EEY42', 'CSG44', 'CSE43', 'IF6CK', 'CSV42', 'FI70E', 'IF6CJ', 'CSW48', 'FCH7HB', 'CSR47', 'QB7AH', 'EEC41', 'CSI54', 'CSW47', 'MA7AV', 'CSI55', 'CSI51', 'CSV41', 'CSH45', 'EL66B', 'CSG48', 'EEY44', 'CSH51', 'EEL51', 'CSI31', 'CSR48', 'CSA41', 'EL75H']
+Sugestoes com pos proc: [['ES70N', 'GE70F', 'ES70B']]
+Recall: 0.0
+Precision: 0.0
+Recall Obrigatorias: 0.0
+Precision Obrigatorias: 0.0
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+179385.0 done
+True Positives: 0
+Sugestoes: ['ES70N', 'CSH30', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'ES70B', 'CSV30', 'CSI53', 'CSR42', 'CSI41', 'CSV40', 'CSB51', 'ED70T', 'CSV45', 'ES70J', 'CSR43', 'EL6CB', 'CSA44', 'CSB41', 'CSE40', 'DI84D', 'CSB53', 'EL6CC', 'CSM44', 'CSI52', 'CSI56', 'EL6EE', 'EL6BC', 'EL6CA', 'CSD41', 'CSH41', 'CSM40', 'CSH44', 'CSR45', 'CSM30', 'EL6BB', 'CSD40', 'CSA42', 'CSH43', 'CSB54', 'CSI57', 'ED70U', 'EEY41', 'CSB52', 'EL65F', 'IF6BV', 'EL64B', 'CSD52', 'FI70B', 'CSW45', 'EL6AE', 'CSA43', 'CSI58', 'CSA45', 'CSG42', 'CSD45', 'CSR53', 'CSD42', 'CSE41', 'CSR40', 'EEY43', 'CSE43', 'EL6BA', 'EEY51', 'EEY42', 'CSE47', 'CSW55', 'CSV52', 'EL65B', 'CSG44', 'CSE42', 'IF6CJ', 'FI70E', 'CSH45', 'FCH7HB', 'CSR47', 'EEC41', 'QB7AH', 'IF6CK', 'CSV42', 'CSW48', 'CSI55', 'CSI51', 'CSV41', 'CSI54', 'CSW47', 'EEY44', 'CSR48', 'MA7AV', 'CSI31', 'CSG48', 'CSH51', 'CSA41', 'EEL51', 'EL75H', 'EL66B']
 Sugestoes com pos proc: [['ES70N']]
 Recall: 0.0
 Precision: 0.0
@@ -408,21 +456,45 @@ Precision Optativas: 0.0
 
 
 179822.0 done
-True Positives: 0
+True Positives: 1
 Sugestoes: ['ES70N', 'FI70D', 'FI70A', 'GE70F', 'ES70B', 'CSR41', 'CSI53', 'MA70C', 'CSR42', 'CSI41', 'CSM41', 'CSB51', 'CSM43', 'CSV45', 'CSB41', 'ES70J', 'CSR43', 'CSA44', 'EL6CB', 'CSE40', 'DI84D', 'CSB53', 'CSM44', 'CSI56', 'CSI52', 'EL6EE', 'CSH44', 'CSM40', 'CSH41', 'CSD41', 'EL6CC', 'CSA42', 'CSM30', 'CSR45', 'EL6BC', 'EL6CA', 'CSD40', 'CSB54', 'CSH43', 'EEY41', 'ED70U', 'CSI57', 'EL6BB', 'CSW45', 'EL64B', 'CSB52', 'CSA45', 'FI70B', 'CSD52', 'IF6BV', 'CSI58', 'CSR53', 'CSD45', 'EL6AE', 'CSA43', 'CSG42', 'EL65F', 'CSD42', 'CSE41', 'CSR40', 'CSE43', 'EEY43', 'EEY51', 'CSV52', 'EL65B', 'CSE47', 'EEY42', 'CSW55', 'CSH45', 'CSI55', 'CSI51', 'CSV41', 'EEY44', 'FI70E', 'EL6BA', 'CSG44', 'FCH7HB', 'CSR47', 'CSA41', 'CSE42', 'CSW48', 'CSH51', 'EEC41', 'CSR48', 'EL66B', 'CSI31', 'CSI54', 'CSW47', 'EEL51', 'CSG48', 'QB7AH', 'MA7AV', 'EL75H', 'CSV42', 'IF6CK', 'IF6CJ']
-Sugestoes com pos proc: [['CSR41']]
-Recall: 0.0
-Precision: 0.0
-Recall Obrigatorias: 0.0
-Precision Obrigatorias: 0.0
+Sugestoes com pos proc: [['CSX43', 'CSR41']]
+Recall: 0.5
+Precision: 1.0
+Recall Obrigatorias: 1.0
+Precision Obrigatorias: 1.0
 Recall Optativas: 0.0
 Precision Optativas: 0.0
 
 
 179823.0 done
-True Positives: 0
+True Positives: 1
 Sugestoes: ['FI70D', 'GE70F', 'FI70A', 'ES70B', 'CSV30', 'CSR41', 'CSR44', 'CSI53', 'MA70C', 'CSR42', 'CSV40', 'CSM41', 'CSB51', 'ED70T', 'CSM43', 'CSA44', 'EL6CB', 'CSV45', 'ES70J', 'CSB41', 'CSR43', 'DI84D', 'EL6EE', 'EL6CC', 'CSB53', 'CSI52', 'CSI56', 'CSM44', 'EL6CA', 'EL6BC', 'CSD41', 'CSH41', 'CSR45', 'CSH44', 'CSM30', 'CSD40', 'CSA42', 'EL6BB', 'CSH43', 'CSB54', 'EL6AE', 'ED70U', 'EEY41', 'CSB52', 'EL65F', 'IF6BV', 'EL64B', 'CSW45', 'CSD52', 'CSI58', 'CSR53', 'CSA43', 'CSD45', 'FI70B', 'CSA45', 'CSG42', 'CSE41', 'CSD42', 'CSE43', 'CSR40', 'EEY51', 'EEY43', 'EEY42', 'CSE47', 'CSW55', 'CSV52', 'CSE42', 'CSG44', 'EL6BA', 'EL65B', 'CSH45', 'CSI55', 'CSI51', 'CSV41', 'FCH7HB', 'CSR47', 'CSW48', 'QB7AH', 'CSI54', 'CSW47', 'MA7AV', 'EEY44', 'FI70E', 'CSG48', 'CSH51', 'EEL51', 'CSR48', 'EEC41', 'IF6CJ', 'IF6CK', 'CSV42', 'EL75H', 'EL66B', 'CSA41', 'CSI31']
-Sugestoes com pos proc: [['CSX54'], []]
+Sugestoes com pos proc: [['CSX54'], ['CSX43', 'FI70D']]
+Recall: 0.3333333333333333
+Precision: 0.3333333333333333
+Recall Obrigatorias: 0.5
+Precision Obrigatorias: 0.5
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+179944.0 done
+True Positives: 1
+Sugestoes: ['CSH30', 'ES70N', 'GE70F', 'CSH42', 'CSV30', 'CSR41', 'CSR44', 'ES70B', 'CSR42', 'CSV40', 'CSI41', 'CSM41', 'CSM43', 'ED70T', 'CSB41', 'CSV45', 'CSR43', 'ES70J', 'DI84D', 'CSE40', 'CSA44', 'CSM44', 'CSM40', 'CSI56', 'CSI52', 'CSH44', 'CSH41', 'CSD41', 'CSM30', 'CSA42', 'CSR45', 'EL6CB', 'CSB54', 'EL6EE', 'CSH43', 'CSD40', 'EEY41', 'ED70U', 'CSB52', 'EL6CC', 'CSD52', 'CSI57', 'CSW45', 'CSI58', 'EL6BB', 'CSA45', 'FI70B', 'CSR53', 'CSD45', 'IF6BV', 'CSA43', 'CSV52', 'CSG42', 'CSD42', 'EL6BC', 'CSE43', 'CSE41', 'CSR40', 'EEY42', 'EEY43', 'EEY51', 'EL65F', 'EL6AE', 'EEY44', 'CSR48', 'FI70E', 'CSH51', 'CSG44', 'CSH45', 'FCH7HB', 'CSR47', 'CSE47', 'CSW55', 'CSG48', 'CSI55', 'CSI51', 'CSV41', 'CSI31', 'EL65B', 'EEC41', 'CSI54', 'CSW47', 'CSE42', 'CSA41', 'EL75H', 'EL6CA', 'EL66B', 'EEL51', 'QB7AH', 'CSW48', 'MA7AV', 'CSV42', 'IF6CK', 'EL6BA', 'IF6CJ']
+Sugestoes com pos proc: [['CSX43', 'CSI41']]
+Recall: 0.5
+Precision: 1.0
+Recall Obrigatorias: 1.0
+Precision Obrigatorias: 1.0
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+180984.0 done
+True Positives: 0
+Sugestoes: ['ES70N', 'CSH30', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'CSV30', 'CSR44', 'CSI53', 'MA70C', 'CSR42', 'CSV40', 'CSI41', 'CSM41', 'CSB51', 'CSM43', 'ED70T', 'CSB41', 'CSV45', 'CSR43', 'CSA44', 'CSE40', 'EL6CB', 'CSB53', 'CSI56', 'CSI52', 'EL6EE', 'CSM40', 'CSH44', 'CSD41', 'CSH41', 'CSR45', 'CSM30', 'EL6CC', 'CSA42', 'EL6BC', 'CSD40', 'CSB54', 'CSH43', 'EL6CA', 'EL6BB', 'ED70U', 'EL64B', 'CSI57', 'EEY41', 'CSB52', 'CSW45', 'CSI58', 'CSD52', 'CSR53', 'IF6BV', 'FI70B', 'CSA45', 'EL6AE', 'CSA43', 'EL65F', 'CSD45', 'CSR40', 'CSD42', 'CSE41', 'CSG42', 'EEY43', 'CSV52', 'EEY51', 'CSE43', 'CSE47', 'CSW55', 'EEY42', 'EL65B', 'EL6BA', 'FI70E', 'CSH45', 'CSG44', 'EEL51', 'CSE42', 'CSI55', 'CSI51', 'CSV41', 'EEY44', 'EEC41', 'CSI54', 'CSW47', 'CSI31', 'CSR48', 'CSW48', 'EL66B', 'QB7AH', 'CSV42', 'IF6CK', 'CSG48', 'CSH51', 'EL75H', 'IF6CJ', 'MA7AV', 'CSA41']
+Sugestoes com pos proc: [['ES70N']]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0
@@ -431,10 +503,10 @@ Recall Optativas: 0.0
 Precision Optativas: 0.0
 
 
-179944.0 done
+182856.0 done
 True Positives: 0
-Sugestoes: ['CSH30', 'ES70N', 'GE70F', 'CSH42', 'CSV30', 'CSR41', 'CSR44', 'ES70B', 'CSR42', 'CSV40', 'CSI41', 'CSM41', 'CSM43', 'ED70T', 'CSB41', 'CSV45', 'CSR43', 'ES70J', 'DI84D', 'CSE40', 'CSA44', 'CSM44', 'CSM40', 'CSI56', 'CSI52', 'CSH44', 'CSH41', 'CSD41', 'CSM30', 'CSA42', 'CSR45', 'EL6CB', 'CSB54', 'EL6EE', 'CSH43', 'CSD40', 'EEY41', 'ED70U', 'CSB52', 'EL6CC', 'CSD52', 'CSI57', 'CSW45', 'CSI58', 'EL6BB', 'CSA45', 'FI70B', 'CSR53', 'CSD45', 'IF6BV', 'CSA43', 'CSV52', 'CSG42', 'CSD42', 'EL6BC', 'CSE43', 'CSE41', 'CSR40', 'EEY42', 'EEY43', 'EEY51', 'EL65F', 'EL6AE', 'EEY44', 'CSR48', 'FI70E', 'CSH51', 'CSG44', 'CSH45', 'FCH7HB', 'CSR47', 'CSE47', 'CSW55', 'CSG48', 'CSI55', 'CSI51', 'CSV41', 'CSI31', 'EL65B', 'EEC41', 'CSI54', 'CSW47', 'CSE42', 'CSA41', 'EL75H', 'EL6CA', 'EL66B', 'EEL51', 'QB7AH', 'CSW48', 'MA7AV', 'CSV42', 'IF6CK', 'EL6BA', 'IF6CJ']
-Sugestoes com pos proc: [['CSI41']]
+Sugestoes: ['ES70N', 'CSH30', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'ES70B', 'CSR41', 'CSR44', 'MA70C', 'CSR42', 'CSI41', 'CSV40', 'CSM41', 'CSB51', 'ED70T', 'CSV45', 'CSM43', 'CSR43', 'CSA44', 'ES70J', 'CSE40', 'DI84D', 'CSM40', 'EL6CB', 'CSM44', 'EL6EE', 'CSI52', 'CSH44', 'CSR45', 'CSH41', 'EL6CC', 'CSD41', 'CSM30', 'EL6CA', 'CSD40', 'CSB54', 'EL6BC', 'EL6BB', 'CSB52', 'CSH43', 'EEY41', 'ED70U', 'EL64B', 'CSI57', 'CSA45', 'CSI58', 'EL65F', 'FI70B', 'IF6BV', 'CSD52', 'CSW45', 'EL6AE', 'CSA43', 'CSG42', 'CSV52', 'CSR53', 'EEY42', 'CSE41', 'CSD45', 'CSR40', 'EEY51', 'CSD42', 'CSE43', 'CSE47', 'CSW55', 'EEY43', 'CSG44', 'IF6CK', 'CSV42', 'QB7AH', 'CSA41', 'EEY44', 'EEL51', 'CSW48', 'MA7AV', 'EL6BA', 'FCH7HB', 'CSR47', 'EL75H', 'CSR48', 'IF6CJ', 'CSH45', 'CSI55', 'CSI51', 'CSV41', 'CSI31', 'CSE42', 'CSI54', 'CSW47', 'FI70E', 'CSH51', 'CSG48', 'EEC41', 'EL65B', 'EL66B']
+Sugestoes com pos proc: [['ES70N']]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0
@@ -446,7 +518,7 @@ Precision Optativas: 0.0
 182913.0 done
 True Positives: 0
 Sugestoes: ['ES70N', 'FI70D', 'FI70A', 'GE70F', 'CSV30', 'ES70B', 'CSI53', 'MA70C', 'CSV40', 'CSM41', 'CSI41', 'CSB51', 'CSM43', 'ED70T', 'CSB41', 'CSV45', 'ES70J', 'DI84D', 'CSB53', 'CSA44', 'CSM44', 'CSE40', 'EL6CB', 'CSI56', 'CSM40', 'CSI52', 'EL6EE', 'CSD41', 'EL6CC', 'CSH41', 'CSR45', 'CSM30', 'CSA42', 'CSB54', 'EL6BC', 'EL6CA', 'CSH43', 'CSD40', 'ED70U', 'CSB52', 'EEY41', 'EL64B', 'EL6BB', 'CSI57', 'CSD52', 'CSW45', 'IF6BV', 'FI70B', 'CSA45', 'CSI58', 'CSR53', 'EL65F', 'CSA43', 'CSE41', 'CSR40', 'EL6AE', 'CSV52', 'CSD42', 'CSD45', 'CSG42', 'EEY51', 'EEY42', 'EEY43', 'CSE47', 'CSE43', 'EL65B', 'CSW55', 'EL6BA', 'CSG44', 'EEY44', 'EEL51', 'FI70E', 'CSI31', 'FCH7HB', 'CSR47', 'CSR48', 'CSW48', 'IF6CK', 'CSV42', 'EL66B', 'QB7AH', 'EEC41', 'CSH45', 'CSA41', 'CSI55', 'CSI51', 'CSV41', 'EL75H', 'IF6CJ', 'CSH51', 'MA7AV', 'CSG48', 'CSI54', 'CSW47', 'CSE42']
-Sugestoes com pos proc: [['ES70N']]
+Sugestoes com pos proc: [['ES70N', 'FI70A']]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0
@@ -456,12 +528,12 @@ Precision Optativas: 0.0
 
 
 183413.0 done
-True Positives: 1
+True Positives: 2
 Sugestoes: ['FI70D', 'FI70A', 'GE70F', 'CSH42', 'CSV30', 'ES70B', 'CSR41', 'CSR44', 'CSI53', 'CSV40', 'CSI41', 'CSM41', 'CSB51', 'ED70T', 'CSM43', 'CSV45', 'CSB41', 'ES70J', 'CSE40', 'DI84D', 'CSA44', 'CSM44', 'CSI56', 'CSB53', 'EL6CB', 'CSI52', 'CSM40', 'EL6EE', 'CSD41', 'CSH41', 'CSR45', 'CSM30', 'EL6CC', 'CSA42', 'EL6BC', 'EL6CA', 'CSD40', 'CSH43', 'CSB54', 'EEY41', 'CSI57', 'EL6BB', 'ED70U', 'CSB52', 'CSW45', 'EL64B', 'FI70B', 'CSI58', 'CSD52', 'IF6BV', 'EL6AE', 'CSA45', 'CSD45', 'CSA43', 'CSR53', 'EL65F', 'CSG42', 'CSD42', 'CSR40', 'CSE41', 'CSE43', 'EEY43', 'CSV52', 'EEY51', 'EEY42', 'CSW55', 'CSE47', 'EL65B', 'FCH7HB', 'CSR47', 'EL6BA', 'EEY44', 'CSI55', 'CSI51', 'CSV41', 'CSH45', 'CSH51', 'EEC41', 'CSG44', 'FI70E', 'CSI54', 'CSW47', 'CSR48', 'EEL51', 'IF6CJ', 'CSW48', 'MA7AV', 'CSG48', 'QB7AH', 'CSA41', 'EL75H', 'CSI31', 'EL66B', 'CSE42', 'CSV42', 'IF6CK']
-Sugestoes com pos proc: [['CSX54'], []]
+Sugestoes com pos proc: [['CSX54'], ['CSX43']]
 Recall: 1.0
-Precision: 0.25
-Recall Obrigatorias: 0.5
+Precision: 0.5
+Recall Obrigatorias: 0.6666666666666666
 Precision Obrigatorias: 1.0
 Recall Optativas: 0.0
 Precision Optativas: 0.0
@@ -471,6 +543,18 @@ Precision Optativas: 0.0
 True Positives: 0
 Sugestoes: ['ES70N', 'CSH30', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'ES70B', 'CSR41', 'CSR42', 'CSM41', 'CSB51', 'CSM43', 'CSV45', 'CSB41', 'CSR43', 'CSA44', 'CSE40', 'ES70J', 'EL6CB', 'DI84D', 'CSI56', 'CSI52', 'CSB53', 'CSM44', 'EL6CC', 'EL6EE', 'CSD41', 'CSM40', 'CSH41', 'CSH44', 'EL6CA', 'EL6BC', 'CSR45', 'CSA42', 'CSM30', 'CSD40', 'CSH43', 'CSB54', 'EL6BB', 'CSI57', 'EEY41', 'CSB52', 'EL64B', 'ED70U', 'IF6BV', 'CSW45', 'EL6AE', 'CSA43', 'CSD52', 'CSA45', 'CSI58', 'EL65F', 'CSR53', 'FI70B', 'CSD45', 'CSG42', 'CSD42', 'CSE41', 'EEY42', 'EEY43', 'EEY51', 'CSR40', 'CSE43', 'CSV52', 'CSE47', 'CSW55', 'EL6BA', 'EL65B', 'CSG44', 'EEC41', 'QB7AH', 'MA7AV', 'FCH7HB', 'CSR47', 'CSI55', 'CSI51', 'CSV41', 'CSH45', 'EEY44', 'CSH51', 'CSW48', 'CSG48', 'EL66B', 'FI70E', 'CSA41', 'CSI54', 'CSW47', 'CSE42', 'EEL51', 'CSR48', 'CSI31', 'IF6CJ', 'EL75H', 'IF6CK', 'CSV42']
 Sugestoes com pos proc: [['CSR41']]
+Recall: 0.0
+Precision: 0.0
+Recall Obrigatorias: 0.0
+Precision Obrigatorias: 0.0
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+186021.0 done
+True Positives: 0
+Sugestoes: ['ES70N', 'CSH30', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'CSR41', 'ES70B', 'CSR44', 'CSI53', 'MA70C', 'CSR42', 'CSV40', 'CSM41', 'CSI41', 'CSB51', 'CSM43', 'ED70T', 'CSV45', 'CSR43', 'ES70J', 'CSA44', 'CSB53', 'CSE40', 'DI84D', 'CSM44', 'EL6CB', 'CSI56', 'CSI52', 'CSH41', 'CSH44', 'EL6EE', 'CSD41', 'CSR45', 'CSM30', 'CSA42', 'EL6CC', 'CSD40', 'CSH43', 'EL6BB', 'EL6BC', 'EL6CA', 'EEY41', 'ED70U', 'EL64B', 'CSB52', 'CSI57', 'CSA45', 'CSD52', 'CSW45', 'FI70B', 'IF6BV', 'CSR53', 'CSI58', 'CSD45', 'CSA43', 'EL65F', 'EL6AE', 'CSV52', 'CSG42', 'CSD42', 'CSE41', 'CSR40', 'EEY42', 'CSE43', 'EEY43', 'EEY51', 'EL65B', 'CSW55', 'CSE47', 'EEY44', 'CSG44', 'FI70E', 'FCH7HB', 'CSR47', 'EEC41', 'CSH45', 'CSR48', 'CSG48', 'CSE42', 'CSA41', 'EEL51', 'CSI31', 'EL6BA', 'CSH51', 'QB7AH', 'CSI55', 'CSI51', 'CSV41', 'CSW48', 'EL75H', 'CSV42', 'IF6CK', 'EL66B', 'MA7AV', 'CSI54', 'CSW47', 'IF6CJ']
+Sugestoes com pos proc: [['ES70N']]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0
@@ -504,12 +588,12 @@ Precision Optativas: 0.0
 
 
 189048.0 done
-True Positives: 2
+True Positives: 3
 Sugestoes: ['ES70N', 'CSH30', 'FI70D', 'GE70F', 'FI70A', 'CSH42', 'ES70B', 'MA70C', 'CSR42', 'CSI41', 'CSM41', 'EL6CB', 'ED70T', 'ES70J', 'CSB41', 'CSM43', 'CSV45', 'CSR43', 'CSA44', 'DI84D', 'CSB53', 'CSE40', 'CSM44', 'EL6CC', 'EL6EE', 'CSM40', 'EL6BC', 'CSI56', 'EL6CA', 'CSI52', 'CSR45', 'CSH44', 'CSD41', 'CSH41', 'CSA42', 'EL6BB', 'CSM30', 'CSD40', 'CSB54', 'CSH43', 'ED70U', 'EEY41', 'EL64B', 'CSB52', 'EL6AE', 'CSI57', 'CSA45', 'IF6BV', 'CSI58', 'CSR53', 'CSD52', 'CSW45', 'CSA43', 'EL65F', 'FI70B', 'CSD42', 'CSV52', 'CSD45', 'CSE43', 'CSG42', 'EEY51', 'CSR40', 'CSE41', 'EEY42', 'EL65B', 'EEY43', 'CSE42', 'CSE47', 'CSR48', 'CSW55', 'EEY44', 'EL75H', 'CSH45', 'EL6BA', 'EEL51', 'CSI31', 'CSG44', 'FI70E', 'EEC41', 'FCH7HB', 'CSR47', 'EL66B', 'CSA41', 'CSI55', 'CSI51', 'CSV41', 'IF6CJ', 'CSH51', 'MA7AV', 'QB7AH', 'CSW48', 'CSG48', 'CSI54', 'CSW47', 'CSV42', 'IF6CK']
-Sugestoes com pos proc: [['GE70D', 'CSI41', 'CSB41', 'GE70H']]
-Recall: 0.5
-Precision: 0.5
-Recall Obrigatorias: 1.0
+Sugestoes com pos proc: [['GE70D', 'GE70H', 'CSX43', 'CSI41', 'CSB41']]
+Recall: 0.6
+Precision: 0.75
+Recall Obrigatorias: 0.75
 Precision Obrigatorias: 1.0
 Recall Optativas: 0.0
 Precision Optativas: 0.0
@@ -530,7 +614,19 @@ Precision Optativas: 0.0
 190494.0 done
 True Positives: 0
 Sugestoes: ['ES70N', 'CSH30', 'FI70D', 'GE70F', 'FI70A', 'CSH42', 'ES70B', 'CSV30', 'CSR44', 'CSI53', 'MA70C', 'CSR42', 'CSM41', 'CSI41', 'CSV40', 'CSM43', 'ES70J', 'ED70T', 'EL6CB', 'CSB41', 'CSR43', 'CSA44', 'CSV45', 'CSE40', 'EL6EE', 'CSI52', 'CSM40', 'CSI56', 'EL6CC', 'CSD41', 'CSH44', 'CSR45', 'EL6BC', 'CSH41', 'EL6BB', 'CSM30', 'CSD40', 'CSA42', 'EL6CA', 'CSH43', 'CSB54', 'ED70U', 'EL64B', 'EEY41', 'CSB52', 'CSI57', 'CSD52', 'CSW45', 'EL65F', 'IF6BV', 'CSA45', 'CSR53', 'FI70B', 'EL6AE', 'CSR40', 'CSA43', 'CSI58', 'CSD45', 'CSD42', 'CSE41', 'CSV52', 'CSE47', 'EEY43', 'CSG42', 'CSE43', 'CSW55', 'EEY51', 'CSE42', 'EEY42', 'CSG44', 'EL65B', 'EL6BA', 'FI70E', 'FCH7HB', 'CSR47', 'CSH45', 'CSR48', 'EEY44', 'EEL51', 'CSI31', 'CSV42', 'IF6CK', 'CSA41', 'CSW48', 'CSI55', 'CSI51', 'CSV41', 'EL66B', 'IF6CJ', 'CSG48', 'QB7AH', 'EL75H', 'EEC41', 'CSH51', 'CSI54', 'CSW47', 'MA7AV']
-Sugestoes com pos proc: [['ES70N']]
+Sugestoes com pos proc: [['ES70N', 'FI70D', 'FI70A']]
+Recall: 0.0
+Precision: 0.0
+Recall Obrigatorias: 0.0
+Precision Obrigatorias: 0.0
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+190495.0 done
+True Positives: 0
+Sugestoes: ['CSH30', 'ES70N', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'CSR41', 'CSR44', 'ES70B', 'CSI53', 'MA70C', 'CSR42', 'CSI41', 'CSB51', 'CSM41', 'CSM43', 'CSV45', 'CSR43', 'DI84D', 'ES70J', 'CSB53', 'CSM44', 'CSE40', 'CSM40', 'CSA44', 'CSI52', 'CSI56', 'CSD41', 'CSH44', 'CSH41', 'CSA42', 'CSM30', 'CSH43', 'CSR45', 'EL6EE', 'CSD40', 'EEY41', 'CSB52', 'EL64B', 'ED70U', 'EL6CB', 'CSA45', 'CSI58', 'CSW45', 'CSD52', 'EL6CC', 'EL6BB', 'FI70B', 'CSR53', 'CSI57', 'CSA43', 'CSR40', 'CSG42', 'IF6BV', 'CSV52', 'CSD45', 'CSD42', 'CSE43', 'EEY51', 'EEY42', 'EEY43', 'EL65F', 'EL6BC', 'CSE41', 'CSE47', 'CSW55', 'EEY44', 'CSI31', 'EL6AE', 'CSA41', 'CSR48', 'CSH45', 'CSH51', 'FI70E', 'EEC41', 'FCH7HB', 'CSR47', 'EEL51', 'CSI55', 'CSI51', 'CSV41', 'CSG44', 'CSI54', 'CSW47', 'QB7AH', 'CSW48', 'EL75H', 'MA7AV', 'EL65B', 'EL66B', 'CSG48', 'EL6BA', 'IF6CK', 'CSV42', 'IF6CJ', 'CSE42', 'EL6CA']
+Sugestoes com pos proc: [['CSH30', 'FI70D']]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0
@@ -542,11 +638,59 @@ Precision Optativas: 0.0
 190499.0 done
 True Positives: 1
 Sugestoes: ['CSH30', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'CSV30', 'ES70B', 'MA70C', 'CSR42', 'CSV40', 'CSM41', 'CSI41', 'CSB51', 'CSM43', 'ES70J', 'CSB41', 'CSV45', 'CSR43', 'CSA44', 'EL6CB', 'CSE40', 'CSB53', 'CSI52', 'CSI56', 'EL6EE', 'CSH44', 'CSD41', 'CSR45', 'CSH41', 'EL6CC', 'CSM30', 'CSA42', 'CSD40', 'CSB54', 'EL6BB', 'EL6BC', 'CSH43', 'EEY41', 'CSB52', 'EL64B', 'CSI57', 'EL6CA', 'CSD52', 'CSW45', 'EL65F', 'CSI58', 'FI70B', 'CSR53', 'CSA45', 'IF6BV', 'CSD42', 'CSD45', 'EL6AE', 'CSG42', 'CSE41', 'CSA43', 'CSV52', 'CSR40', 'CSE43', 'EEY43', 'EEY42', 'EEY51', 'CSE47', 'CSW55', 'CSE42', 'CSG44', 'EL65B', 'EEY44', 'CSR48', 'FCH7HB', 'CSR47', 'CSI31', 'EEC41', 'EL75H', 'CSH45', 'CSI55', 'CSI51', 'CSV41', 'EL66B', 'EL6BA', 'QB7AH', 'CSW48', 'FI70E', 'EEL51', 'CSI54', 'CSW47', 'CSA41', 'CSG48', 'CSH51', 'MA7AV', 'IF6CK', 'CSV42', 'IF6CJ']
-Sugestoes com pos proc: [['CSW41', 'CSW42']]
+Sugestoes com pos proc: [['CSW41', 'CSX43']]
 Recall: 0.5
 Precision: 0.5
-Recall Obrigatorias: 1.0
+Recall Obrigatorias: 0.5
 Precision Obrigatorias: 0.5
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+190508.0 done
+True Positives: 0
+Sugestoes: ['CSH30', 'ES70N', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'CSR41', 'CSR44', 'CSI53', 'ES70B', 'MA70C', 'CSI41', 'CSR42', 'CSM41', 'CSB51', 'CSM43', 'CSV45', 'DI84D', 'CSR43', 'CSM44', 'ES70J', 'CSB53', 'CSE40', 'CSM40', 'CSA44', 'CSI52', 'CSI56', 'CSH44', 'CSD41', 'CSH41', 'CSA42', 'CSM30', 'EL6EE', 'CSR45', 'CSH43', 'CSD40', 'EEY41', 'EL6CB', 'ED70U', 'EL64B', 'CSB52', 'CSI57', 'EL6CC', 'CSD52', 'CSW45', 'CSI58', 'CSA45', 'CSR53', 'EL6BB', 'CSA43', 'FI70B', 'CSE43', 'CSD45', 'CSG42', 'CSD42', 'EEY51', 'CSV52', 'IF6BV', 'EEY42', 'EEY43', 'CSR40', 'CSE41', 'EL65F', 'EL6BC', 'EEY44', 'EL6AE', 'CSW55', 'EL75H', 'CSR48', 'CSI31', 'FCH7HB', 'CSR47', 'CSE47', 'CSH45', 'EEL51', 'MA7AV', 'CSG48', 'CSI55', 'CSI51', 'CSV41', 'FI70E', 'CSA41', 'EEC41', 'QB7AH', 'IF6CK', 'CSV42', 'CSH51', 'EL65B', 'CSI54', 'CSW47', 'CSW48', 'EL66B', 'CSG44', 'EL6BA', 'IF6CJ', 'EL6CA', 'CSE42']
+Sugestoes com pos proc: [['CSH30', 'FI70D']]
+Recall: 0.0
+Precision: 0.0
+Recall Obrigatorias: 0.0
+Precision Obrigatorias: 0.0
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+190615.0 done
+True Positives: 0
+Sugestoes: ['ES70N', 'CSH30', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'CSR41', 'CSR44', 'ES70B', 'CSI53', 'MA70C', 'CSV40', 'CSR42', 'CSI41', 'CSM41', 'ED70T', 'CSV45', 'CSM43', 'CSB41', 'CSR43', 'CSA44', 'ES70J', 'CSE40', 'DI84D', 'CSM44', 'CSI56', 'CSI52', 'CSM40', 'CSD41', 'CSH41', 'EL6EE', 'CSH44', 'EL6CB', 'CSM30', 'CSR45', 'EL6CC', 'CSB54', 'CSD40', 'CSH43', 'EL6BC', 'EL6BB', 'EEY41', 'CSB52', 'EL64B', 'ED70U', 'CSI57', 'FI70B', 'CSW45', 'CSG42', 'CSD52', 'CSI58', 'CSR53', 'CSA43', 'CSD45', 'EL6CA', 'CSD42', 'CSR40', 'IF6BV', 'EL65F', 'EEY42', 'CSV52', 'CSE43', 'CSE41', 'EEY51', 'CSW55', 'EEY43', 'CSE47', 'EL6AE', 'EEY44', 'CSR48', 'EL65B', 'CSI55', 'CSI51', 'CSV41', 'CSH51', 'CSG44', 'MA7AV', 'CSH45', 'IF6CK', 'CSV42', 'QB7AH', 'CSG48', 'EEC41', 'IF6CJ', 'CSI31', 'EL6BA', 'EL75H', 'FCH7HB', 'CSR47', 'CSI54', 'CSW47', 'EEL51', 'FI70E', 'EL66B', 'CSW48', 'CSE42']
+Sugestoes com pos proc: [['ES70N']]
+Recall: 0.0
+Precision: 0.0
+Recall Obrigatorias: 0.0
+Precision Obrigatorias: 0.0
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+191284.0 done
+True Positives: 0
+Sugestoes: ['ES70N', 'FI70D', 'GE70F', 'CSR41', 'CSV30', 'ES70B', 'CSR44', 'CSI53', 'MA70C', 'CSR42', 'CSV40', 'CSM41', 'CSI41', 'CSB51', 'CSM43', 'ED70T', 'ES70J', 'CSR43', 'CSB41', 'CSV45', 'CSA44', 'EL6CB', 'CSB53', 'CSE40', 'CSI52', 'CSM40', 'CSH44', 'CSI56', 'EL6EE', 'CSD41', 'CSR45', 'CSH41', 'EL6CC', 'CSD40', 'CSM30', 'CSA42', 'EL6BC', 'EL6BB', 'CSH43', 'CSB54', 'ED70U', 'EL6CA', 'EL64B', 'CSB52', 'CSI57', 'EEY41', 'CSW45', 'CSD52', 'IF6BV', 'FI70B', 'CSI58', 'CSR53', 'CSR40', 'EL65F', 'CSA45', 'CSD45', 'CSE41', 'CSA43', 'CSD42', 'CSV52', 'CSG42', 'EL6AE', 'CSE43', 'EEY43', 'CSE47', 'EEY51', 'CSW55', 'CSE42', 'EEY42', 'CSG44', 'CSV42', 'IF6CK', 'EL65B', 'FCH7HB', 'CSR47', 'CSH45', 'CSR48', 'EEY44', 'IF6CJ', 'CSW48', 'CSI55', 'CSI51', 'CSV41', 'FI70E', 'EL6BA', 'EEL51', 'EEC41', 'EL66B', 'QB7AH', 'CSI31', 'CSA41', 'CSH51', 'CSG48', 'EL75H', 'CSI54', 'CSW47', 'MA7AV']
+Sugestoes com pos proc: [['ES70N']]
+Recall: 0.0
+Precision: 0.0
+Recall Obrigatorias: 0.0
+Precision Obrigatorias: 0.0
+Recall Optativas: 0.0
+Precision Optativas: 0.0
+
+
+198372.0 done
+True Positives: 1
+Sugestoes: ['ES70N', 'FI70D', 'FI70A', 'GE70F', 'CSV30', 'ES70B', 'CSR41', 'CSR44', 'CSI53', 'CSR42', 'CSI41', 'CSV40', 'CSB51', 'ED70T', 'CSB41', 'CSV45', 'CSR43', 'DI84D', 'CSA44', 'EL6CB', 'CSM44', 'CSE40', 'CSB53', 'CSI52', 'CSH44', 'CSI56', 'EL6EE', 'CSD41', 'CSR45', 'EL6CC', 'CSH41', 'CSM30', 'CSB54', 'CSA42', 'CSD40', 'EL6BC', 'CSH43', 'EL6BB', 'CSB52', 'EEY41', 'ED70U', 'EL64B', 'EL6CA', 'CSI57', 'CSI58', 'CSD52', 'CSW45', 'CSA45', 'EL65F', 'CSR53', 'FI70B', 'CSD42', 'CSA43', 'CSG42', 'IF6BV', 'CSD45', 'CSE41', 'CSR40', 'EEY42', 'CSV52', 'CSE43', 'EEY51', 'EL6AE', 'EEY43', 'CSE47', 'CSW55', 'CSG44', 'CSI31', 'EL75H', 'EEY44', 'EL65B', 'CSR48', 'CSA41', 'EEL51', 'QB7AH', 'CSH51', 'MA7AV', 'FI70E', 'CSE42', 'CSH45', 'IF6CJ', 'FCH7HB', 'CSR47', 'CSI54', 'CSW47', 'EEC41', 'CSW48', 'EL66B', 'CSI55', 'CSI51', 'CSV41', 'CSG48', 'EL6BA', 'IF6CK', 'CSV42']
+Sugestoes com pos proc: [['CSX43']]
+Recall: 1.0
+Precision: 1.0
+Recall Obrigatorias: 1.0
+Precision Obrigatorias: 1.0
 Recall Optativas: 0.0
 Precision Optativas: 0.0
 
@@ -554,7 +698,7 @@ Precision Optativas: 0.0
 198543.0 done
 True Positives: 0
 Sugestoes: ['ES70N', 'FI70D', 'FI70A', 'GE70F', 'CSV30', 'CSR41', 'ES70B', 'CSR44', 'CSI53', 'MA70C', 'CSR42', 'CSV40', 'CSI41', 'CSB51', 'CSM43', 'ED70T', 'CSB41', 'ES70J', 'CSR43', 'CSV45', 'CSA44', 'CSB53', 'CSE40', 'CSM40', 'EL6CB', 'CSI52', 'CSH44', 'CSI56', 'CSH41', 'CSR45', 'EL6EE', 'CSD41', 'CSM30', 'CSB54', 'CSA42', 'EL6CC', 'CSD40', 'EL6BB', 'EL6BC', 'CSH43', 'ED70U', 'CSB52', 'EEY41', 'EL64B', 'CSI57', 'CSW45', 'EL6CA', 'CSD52', 'CSI58', 'CSR53', 'CSA45', 'CSA43', 'EL65F', 'CSD42', 'IF6BV', 'CSD45', 'FI70B', 'CSV52', 'CSR40', 'CSE43', 'EEY51', 'CSE41', 'EL6AE', 'EEY43', 'CSG42', 'EEY42', 'CSE47', 'CSW55', 'CSG44', 'EEY44', 'FCH7HB', 'CSR47', 'CSH45', 'CSV42', 'IF6CK', 'EL65B', 'EL6BA', 'CSR48', 'EEL51', 'CSI31', 'EL75H', 'CSI55', 'CSI51', 'CSV41', 'FI70E', 'CSA41', 'CSE42', 'EEC41', 'CSG48', 'EL66B', 'MA7AV', 'QB7AH', 'CSH51', 'CSI54', 'CSW47', 'IF6CJ', 'CSW48']
-Sugestoes com pos proc: [['ES70N']]
+Sugestoes com pos proc: [['ES70N', 'FI70A']]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0
@@ -566,7 +710,7 @@ Precision Optativas: 0.0
 202261.0 done
 True Positives: 0
 Sugestoes: ['ES70N', 'CSH30', 'FI70D', 'FI70A', 'GE70F', 'CSH42', 'CSV30', 'ES70B', 'CSR41', 'CSR44', 'MA70C', 'CSR42', 'CSV40', 'CSM41', 'CSB51', 'ED70T', 'CSM43', 'ES70J', 'CSB41', 'CSV45', 'CSA44', 'EL6CB', 'CSR43', 'DI84D', 'CSB53', 'CSM44', 'CSM40', 'EL6EE', 'CSI52', 'CSI56', 'CSR45', 'CSD41', 'EL6CC', 'CSH44', 'CSH41', 'CSM30', 'CSA42', 'CSD40', 'EL6BB', 'EL6BC', 'CSH43', 'CSB52', 'EEY41', 'EL64B', 'ED70U', 'CSI57', 'EL65F', 'CSI58', 'EL6CA', 'CSD52', 'CSA45', 'CSW45', 'CSR53', 'CSG42', 'CSA43', 'FI70B', 'CSD42', 'CSD45', 'EEY42', 'IF6BV', 'EEY51', 'EL6AE', 'CSV52', 'CSE41', 'EEY43', 'CSE42', 'CSR40', 'CSW55', 'CSE47', 'CSR48', 'CSI31', 'EEY44', 'CSG44', 'EL65B', 'MA7AV', 'EEC41', 'FCH7HB', 'CSR47', 'EL66B', 'CSG48', 'CSA41', 'EEL51', 'CSI54', 'CSW47', 'FI70E', 'CSH51', 'QB7AH', 'CSH45', 'CSI55', 'CSI51', 'CSV41', 'CSW48', 'EL6BA', 'IF6CJ', 'IF6CK', 'CSV42']
-Sugestoes com pos proc: [['CSX54'], ['CSS30', 'EEX23', 'ES70N', 'CSB51', 'CSI52', 'EEC31', 'CSX42']]
+Sugestoes com pos proc: [['CSX54'], ['CSS30', 'EEX23', 'CSX42', 'CSX43', 'ES70N', 'FI70D', 'CSB51', 'CSI52'], []]
 Recall: 0.0
 Precision: 0.0
 Recall Obrigatorias: 0.0

@@ -101,7 +101,17 @@ def load_disciplinas() -> List:
             disciplinas[disc[3]].equivalentes = disc[16].split(' ')
             print(disciplinas[disc[3]].equivalentes)
 
-    
+    disciplinas['CSB43'].trilha = 'Banco De Dados'
+    disciplinas['CSD43'].trilha = 'Redes De Computadores'
+    disciplinas['CSD47'].trilha = 'Redes De Computadores'
+    disciplinas['CSR20'].trilha = 'Redes De Computadores'
+    disciplinas['CSR46'].trilha = 'Redes De Computadores'
+    disciplinas['CSX43'].trilha = 'obrigatoria'
+    disciplinas['EEF31'].trilha = 'Optativas Isoladas'
+    disciplinas['ET7GL'].trilha = 'Redes De Computadores'
+    disciplinas['ET7GM'].trilha = 'Redes De Computadores'
+    disciplinas['ICSB55'].trilha = 'Banco De Dados'
+    disciplinas['EEF31'].trilha = 'obrigatoria'
 
     return disciplinas
 
