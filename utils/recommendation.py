@@ -226,7 +226,7 @@ def get_leiden_partition():
     comunidades = []
     for com in enumerate(partition.membership):
         print(com)
-        if (len(comunidades) <= com[1]):
+        while (len(comunidades) <= com[1]):
             comunidades.append([])
         comunidades[com[1]].append(H.vs()[com[0]]["_nx_name"])
     comunidades_trilhas = []
