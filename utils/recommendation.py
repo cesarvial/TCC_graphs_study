@@ -35,10 +35,9 @@ def get_disciplinas_variables():
     # Dada uma disciplinas, busca o seu tipo
     def get_tipo_disciplina(disciplina):
         eletivas = pd.read_csv("../excel/Eletivas.csv", delimiter=",")
-        #mapa_eletivas = {}
-        #for index, row in eletivas.iterrows():
-        #    mapa_eletivas[row["CODIGO"]] = row["DISCIPLINA"]
-        mapa_eletivas = dict(zip(eletivas["CODIGO"], eletivas["DISCIPLINA"]))
+        mapa_eletivas = {}
+        for index, row in eletivas.iterrows():
+            mapa_eletivas[row["CODIGO"]] = row["DISCIPLINA"]
         if disciplina in disciplinas_844:
             return (
                 disciplinas_844[disciplina].trilha
@@ -49,28 +48,15 @@ def get_disciplinas_variables():
             return "ELETIVA"
         else:
             return "NÃO MAPEADA"
-        
     # Obter um mapeamento de disciplinas equivalentes
-    mapeamento_equivalentes = {
-        equivalente: disciplina.codigo
-        for disciplina in disciplinas_844.values()
-        for equivalente in disciplina.disciplinas_equivalentes.keys()
-    }
-
-    #mapeamento_equivalentes = {}
-    #for disciplina in disciplinas_844.values():
-    #    for equivalente in disciplina.disciplinas_equivalentes.keys():
-    #        mapeamento_equivalentes[equivalente] = disciplina.codigo
+    mapeamento_equivalentes = {}
+    for disciplina in disciplinas_844.values():
+        for equivalente in disciplina.disciplinas_equivalentes.keys():
+            mapeamento_equivalentes[equivalente] = disciplina.codigo
     # Obter nome de disciplinas eletivas
     eletivas = pd.read_csv("../excel/Eletivas.csv", delimiter=",")
     mapa_eletivas = {}
-
-    #def monta_mapa(row):
-    #    mapa_eletivas[row["CODIGO"]] = row["DISCIPLINA"]
-
-    #eletivas.map(monta_mapa)
-
-    for _, row in eletivas.iterrows():
+    for index, row in eletivas.iterrows():
         mapa_eletivas[row["CODIGO"]] = row["DISCIPLINA"]
     df = df.replace({"CODIGO": mapeamento_equivalentes})
     df["DISCIPLINA"] = df["CODIGO"].apply(
@@ -191,6 +177,9 @@ def create_student_relation_graph_trilhas():
         for j in range(len(estudantes)):
             if (hist[i]["ID_ANONIMO"] == estudantes[j].id_anonimo):
                 if (hist[i]["CODIGO"] in optional):
+                    if (int(estudantes[j].ano_ingresso) <= 17 and 
+                       (hist[i]["CODIGO"] == 'ES70N' or hist[i]["CODIGO"] == 'FI70D' or hist[i]["CODIGO"] == 'FI70A' or hist[i]["CODIGO"] == 'GE70F')):
+                        continue
                     estudantes[j].add_disciplina(hist[i]["CODIGO"])
     # Adiciona as trilhas de cada estudante
     for e in estudantes:
@@ -236,9 +225,9 @@ def get_leiden_partition():
     partition = H.community_leiden(weights='weight', objective_function='modularity')
     comunidades = []
     for com in enumerate(partition.membership):
+        print(com)
         while (len(comunidades) <= com[1]):
             comunidades.append([])
-        #print(com)
         comunidades[com[1]].append(H.vs()[com[0]]["_nx_name"])
     comunidades_trilhas = []
     for c in comunidades:

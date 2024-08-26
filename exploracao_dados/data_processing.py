@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from typing import Dict
+import copy
 
 dados_formados_path = 'input/dados_formados.csv'
 dados_regulares_path = 'input/dados_regulares.csv'
@@ -97,9 +98,16 @@ def load_disciplinas() -> List:
         if disc[3] in disciplinas.keys():
             disciplinas[disc[3]].periodo = disc[1]
         if(len(str(disc[16]).split(' ')) > 1):
-            print(disciplinas[disc[3]].codigo)
+            #print(disciplinas[disc[3]].codigo)
             disciplinas[disc[3]].equivalentes = disc[16].split(' ')
-            print(disciplinas[disc[3]].equivalentes)
+            for disc_eq in disciplinas[disc[3]].equivalentes:
+                if disc_eq not in disciplinas.keys():
+                    print(disc_eq)
+                    disciplinas[disc_eq] = copy.copy(disciplinas[disc[3]])
+                    disciplinas[disc_eq].equivalentes = []
+                    if disciplinas[disc_eq].trilha == 'obrigatoria' and not disc_eq in matriz['Código'].values:
+                        disciplinas[disc_eq].trilha = 'obrigatoriamatrizantiga'
+            #print(disciplinas[disc[3]].equivalentes)
 
     disciplinas['CSB43'].trilha = 'Banco De Dados'
     disciplinas['CSD43'].trilha = 'Redes De Computadores'
